@@ -1,7 +1,7 @@
 {
   "scena1": [
     {
-      "background": "../images/fundal/casa cris.jpg",
+      "background": "./images/fundal/casa cris.jpg",
       "text": [
         {
           "name": "no",
@@ -12,7 +12,7 @@
   ],
   "scena2": [
     {
-      "background": "../images/fundal/coperta.png",
+      "background": "./images/fundal/coperta.png",
       "text": [
         {
           "name": "no",
