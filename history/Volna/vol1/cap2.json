@@ -1,0 +1,24 @@
+{
+  "scena1": [
+    {
+      "background": "../images/fundal/casa cris.jpg",
+      "text": [
+        {
+          "name": "no",
+          "content": "Поздний вечер в Москве встречает меня холодным воздухом и привычным шумом города."
+        }
+      ]
+    }
+  ],
+  "scena2": [
+    {
+      "background": "../images/fundal/coperta.png",
+      "text": [
+        {
+          "name": "no",
+          "content": "Надеюсь, вам понравилась история. Оцените работу автора Руксанды и подписывайтесь на ТГ @pocornosti."
+        }
+      ]
+    }
+  ]
+}

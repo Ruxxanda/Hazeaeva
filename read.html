@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Читать историю</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="robots" content="noindex">
+</head>
+<body class="read-page">
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Идёт загрузка главы...</div>
+  </div>
+
+  <div id="scene" class="scene">
+    <img id="background" class="background" src="" alt="fundal">
+    <img id="character" class="character" src="" alt="personaj">
+    <div id="dialogue" class="dialogue">
+      <div id="char-name" class="char-name"></div>
+      <div id="text" class="text"></div>
+      <button id="end-button" class="end-button" type="button" hidden>Назад к истории</button>
+    </div>
+    <div id="phone-panel" class="phone-panel" hidden>
+      <div class="phone-notch"></div>
+      <div class="phone-header">
+        <span class="phone-back">‹</span>
+        <span class="phone-contact">Exile</span>
+        <span class="phone-menu">⋯</span>
+      </div>
+      <div id="phone-messages" class="phone-messages"></div>
+      <div class="phone-footer">
+        <span class="phone-input">Сообщение</span>
+        <button class="phone-send" type="button">➜</button>
+      </div>
+    </div>
+    <button id="phone-next-button" class="phone-next-button" type="button" hidden>Дальше</button>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
