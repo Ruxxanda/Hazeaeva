@@ -1,22 +1,854 @@
 {
   "scena1": [
     {
-      "background": "./images/fundal/casa cris.jpg",
+      "background": "./images/fundal/afara casa.jpg",
       "text": [
         {
           "name": "no",
-          "content": "Поздний вечер в Москве встречает меня холодным воздухом и привычным шумом города."
+          "content": "К семи вечера я уже была готова и вышла на улицу ждать Костю."
+        },
+        {
+          "name": "no",
+          "content": "Летний вечер оказался тёплым и спокойным."
+        },
+        {
+          "name": "no",
+          "content": "Во дворе почти никого не было, поэтому оставалось только смотреть на дорогу и ждать."
+        },
+        {
+          "name": "no",
+          "content": "Ровно через пять минут возле дома остановился синий Porsche."
+        },
+        {
+          "name": "no",
+          "content": "Дверь открылась, и из машины вышел высокий парень."
+        },
+        {
+          "name": "no",
+          "content": "Увидев меня, он сразу направился в мою сторону."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Привет, ты Кристина? Я Костя. Готова?"
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Привет. Да. Можешь называть меня просто Крис"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Хорошо, Крис."
+        },
+        {
+          "name": "no",
+          "content": "Он взял мою сумку прежде, чем я успела что-либо сказать."
+        },
+        {
+          "name": "no",
+          "content": "Багаж быстро оказался в багажнике."
+        },
+        {
+          "name": "no",
+          "content": "После этого Костя открыл мне дверь машины."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Прошу."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Спасибо."
         }
       ]
     }
   ],
   "scena2": [
     {
+      "background": "./images/fundal/masina.jpg",
+      "text": [
+        {
+          "name": "no",
+          "content": "Устроившись на пассажирском сиденье, я пристегнулась."
+        },
+        {
+          "name": "no",
+          "content": "Через минуту мы уже выехали со двора."
+        },
+        {
+          "name": "no",
+          "content": "Дом у озера находился довольно далеко, поэтому впереди нас ждала длинная дорога."
+        },
+        {
+          "name": "no",
+          "content": "Несколько минут мы просто ехали молча."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Нервничаешь?"
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Немного."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Из-за новых людей?"
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Скорее из-за того, что я никого там не знаю."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Это быстро пройдёт."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Ты так уверен?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Конечно. Там все ненормальные в хорошем смысле этого слова."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Очень обнадёживает."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Поверь, через пару часов ты сама будешь смеяться вместе с нами."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Даже не знаю."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Спорим?"
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "И на что?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Если подружишься со всеми сегодня, то с тебя шоколадка."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "А если нет?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Тогда шоколадку покупаю я."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Очень рискованная ставка с твоей стороны."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Я люблю рисковать."
+        },
+        {
+          "name": "no",
+          "content": "Наш разговор прервал звонок телефона."
+        },
+        {
+          "name": "no",
+          "content": "Костя посмотрел на экран."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Кто меня ищет?.. Извини, нужно ответить."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Ничего страшного."
+        },
+        {
+          "name": "no",
+          "content": "Он принял вызов."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Алло, я за рулём."
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Вы уже близко к дому?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Нет, ещё примерно полчаса ехать."
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Понятно. Ты с той девушкой?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Да. Она тебя слышит."
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Привет. Я Влад."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Привет! Я Кристина, но друзья называют меня Крис."
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Очень приятно познакомиться, Крис. Костян, я буду позже."
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Эти ребята из совета шагу не могут сделать без моего присутствия."
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Не ждите меня, приеду, как освобожусь, хорошо?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Да, как скажешь. Что у тебя опять случилось?"
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Снова пытаюсь убедить их продать мне GTA5 RP. Они реально не понимают, что в моих руках сервер станет ещё успешнее? Уже бесит."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Не накручивай себя. А то сейчас опять что-нибудь скажешь и все обидятся."
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Знаю. Поэтому и звоню тебе. Сейчас выпью виски и успокоюсь."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Опять?"
+        },
+        {
+          "name": "Влад",
+          "position": "right",
+          "image": "./images/personaje/Vlad.png",
+          "content": "Да. Ладно, увидимся в доме у озера. Пока, Крис!"
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Пока!"
+        },
+        {
+          "name": "no",
+          "content": "Разговор закончился."
+        },
+        {
+          "name": "no",
+          "content": "Костя убрал телефон и снова сосредоточился на дороге."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "GTA5 RP? Кто он вообще такой, что хочет купить этот сервер? Меня это удивляет."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Он долларовый миллионер."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Серьёзно?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Более чем. Создатель Majestic RP."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Подожди... Влад Куертов?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Именно."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Не могу поверить."
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "У нас он легенда."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Почему?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Мы называем его Папой и Генералом."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Папой?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Потому что он постоянно всем помогает и часто платит за всю компанию."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "А Генералом?"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Однажды он пришёл в костюме генерала. После этого прозвище осталось навсегда."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Хахаха!"
+        },
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Если услышишь, как кто-то кричит 'Генерал', не пугайся."
+        },
+        {
+          "name": "no",
+          "content": "Остаток дороги прошёл за разговорами и шутками."
+        },
+        {
+          "name": "no",
+          "content": "Когда мы наконец приехали к дому у озера, солнце уже начинало садиться."
+        },
+        {
+          "name": "no",
+          "content": "Возле дома стояли двое парней."
+        },
+        {
+          "name": "no",
+          "content": "Один был высоким, с длинными белыми волосами."
+        },
+        {
+          "name": "no",
+          "content": "Второй оказался брюнетом и постоянно смеялся."
+        },
+        {
+          "name": "no",
+          "content": "Костя опустил окно."
+        }
+      ]
+    }
+  ],
+  "scena3": [
+    {
+      "background": "./images/fundal/casa lac.jpg",
+      "text": [
+        {
+          "name": "Костя",
+          "position": "right",
+          "image": "./images/personaje/Kostea.png",
+          "content": "Лёша! Парадеевич! Чего стоите? Идите помогите вещи занести!"
+        },
+        {
+          "name": "no",
+          "content": "Оба сразу направились к машине."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Привет, я Кристина, но можете называть меня просто Крис."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Привет, Крис! Я Кореш. Но можешь звать меня Лёша."
+        },
+        {
+          "name": "no",
+          "content": "Он широко улыбнулся."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "И, кстати, хочу сказать, что ты очень красивая."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Спасибо. Ты тоже хорошо выглядишь."
+        },
+        {
+          "name": "Сашка",
+          "position": "right",
+          "image": "./images/personaje/Paradeevici.png",
+          "content": "Нет, он выглядит ужасно по сравнению с тобой."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Эй!"
+        },
+        {
+          "name": "Сашка",
+          "position": "right",
+          "image": "./images/personaje/Paradeevici.png",
+          "content": "А я Парадеевич. Зови меня Сашка."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Или Сашенька, как называю его я."
+        },
+        {
+          "name": "Сашка",
+          "position": "right",
+          "image": "./images/personaje/Paradeevici.png",
+          "content": "Только попробуй."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Хорошо, Сашенька."
+        },
+        {
+          "name": "Сашка",
+          "position": "right",
+          "image": "./images/personaje/Paradeevici.png",
+          "content": "Предательница..."
+        },
+        {
+          "name": "no",
+          "content": "Мы рассмеялись."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Пойдём, покажу тебе комнату."
+        },
+        {
+          "name": "no",
+          "content": "Лёша взял мой чемодан и направился к дому."
+        }
+      ]
+    }
+  ],
+  "scena4": [
+    {
+      "background": "./images/fundal/in casa.jpg",
+      "text": [
+        {
+          "name": "no",
+          "content": "Внутри оказалось ещё несколько человек."
+        },
+        {
+          "name": "no",
+          "content": "Двое сидели на диване."
+        },
+        {
+          "name": "no",
+          "content": "Ещё один парень находился на кухне и раскладывал продукты."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Пацаны! Крис и Костя приехали!"
+        },
+        {
+          "name": "no",
+          "content": "Парни сразу повернулись в нашу сторону."
+        },
+        {
+          "name": "no",
+          "content": "Двое с дивана поднялись и подошли ближе."
+        },
+        {
+          "name": "Илья",
+          "position": "right",
+          "image": "./images/personaje/Ilia.png",
+          "content": "Привет, Я Exile. Можешь называть меня Илья."
+        },
+        {
+          "name": "Саша",
+          "position": "right",
+          "image": "./images/personaje/Frama.png",
+          "content": "А я Саша. Frame Tamer."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Очень приятно познакомиться."
+        },
+        {
+          "name": "Илья",
+          "position": "right",
+          "image": "./images/personaje/Ilia.png",
+          "content": "Тебе здесь нравится?"
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Да. Очень красиво. Настоящая летняя атмосфера."
+        },
+        {
+          "name": "Илья",
+          "position": "right",
+          "image": "./images/personaje/Ilia.png",
+          "content": "Это хорошо. Потом обсудим, кто чем будет заниматься."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Договорились."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Ладно, идём наверх."
+        },
+        {
+          "name": "no",
+          "content": "По пути мы прошли мимо парня на кухне."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Привет! Я Крис."
+        },
+        {
+          "name": "no",
+          "content": "Парень повернулся."
+        },
+        {
+          "name": "no",
+          "content": "Сначала его взгляд показался мне довольно суровым."
+        },
+        {
+          "name": "no",
+          "content": "Но уже через секунду он улыбнулся."
+        },
+        {
+          "name": "Данила",
+          "position": "right",
+          "image": "./images/personaje/Gorila.png",
+          "content": "Привет, красавица. Я Данила Горилла. Зови просто Данила."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Приятно познакомиться."
+        },
+        {
+          "name": "Данила",
+          "position": "right",
+          "image": "./images/personaje/Gorila.png",
+          "content": "Идёшь смотреть комнату?"
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Да. Надеюсь, она не оформлена в стиле пикми-девочки."
+        },
+        {
+          "name": "Данила",
+          "position": "right",
+          "image": "./images/personaje/Gorila.png",
+          "content": "Илья вообще хотел сделать всё розовым только потому, что ты девушка."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Серьёзно?"
+        },
+        {
+          "name": "Данила",
+          "position": "right",
+          "image": "./images/personaje/Gorila.png",
+          "content": "Абсолютно."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Тогда спасибо, что отговорили его."
+        },
+        {
+          "name": "Данила",
+          "position": "right",
+          "image": "./images/personaje/Gorila.png",
+          "content": "Всегда пожалуйста."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Что ты там делаешь?"
+        },
+        {
+          "name": "Данила",
+          "position": "right",
+          "image": "./images/personaje/Gorila.png",
+          "content": "Продукты раскладываю. Чтобы не испортились."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "А, понял."
+        }
+      ]
+    }
+  ],
+  "scena5": [
+    {
+      "background": "./images/fundal/camere.jpg",
+      "text": [
+        {
+          "name": "no",
+          "content": "Мы поднялись на второй этаж."
+        },
+        {
+          "name": "no",
+          "content": "По дороге Лёша показывал мне комнаты."
+        },
+        {
+          "name": "no",
+          "content": "Справа находились комнаты Саши Frame Tamer и Ильи."
+        },
+        {
+          "name": "no",
+          "content": "Напротив располагались комнаты Кости и Данилы."
+        },
+        {
+          "name": "no",
+          "content": "Слева были ещё четыре двери."
+        },
+        {
+          "name": "no",
+          "content": "Там находились комнаты самого Лёши, Парадеевича, моя комната и комната Влада."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Влад скоро должен приехать. Потом познакомим вас нормально."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Мы уже познакомились."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Серьёзно?"
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Он звонил Косте по дороге."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Тогда отлично."
+        }
+      ]
+    }
+  ],
+  "scena6": [
+    {
+      "background": "./images/fundal/camera cris.jpg",
+      "text": [
+        {
+          "name": "no",
+          "content": "Наконец мы вошли в мою комнату."
+        },
+        {
+          "name": "no",
+          "content": "Она оказалась очень уютной и светлой."
+        },
+        {
+          "name": "no",
+          "content": "Лёша поставил чемодан возле кровати."
+        },
+        {
+          "name": "Лёша",
+          "position": "right",
+          "image": "./images/personaje/Kores.png",
+          "content": "Располагайся."
+        },
+        {
+          "name": "Кристина",
+          "position": "left",
+          "image": "./images/personaje/Kris.png",
+          "content": "Спасибо."
+        },
+        {
+          "name": "no",
+          "content": "После этого он ушёл вниз."
+        },
+        {
+          "name": "no",
+          "content": "Оставшись одна, я начала раскладывать вещи."
+        },
+        {
+          "name": "no",
+          "content": "Через некоторое время всё было готово."
+        }
+      ]
+    }
+  ],
+  "scena7": [
+    {
+      "background": "./images/fundal/in casa.jpg",
+      "text": [
+        {
+          "name": "no",
+          "content": "Спустившись на первый этаж, я увидела, что парни уже собрались в гостиной и о чём-то оживлённо разговаривали."
+        }
+      ]
+    }
+  ],
+  "scena8": [
+    {
       "background": "./images/fundal/coperta.png",
       "text": [
         {
           "name": "no",
-          "content": "Надеюсь, вам понравилась история. Оцените работу автора Руксанды и подписывайтесь на ТГ @pocornosti."
+          "content": "Это моя первая история, не судите строго. Предложения и идеи пишите в Telegram: @pocornosti."
         }
       ]
     }

@@ -1,0 +1,43 @@
+{
+    "scena1": [
+        {
+            "background": "./images/fundal/afara casa.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "К семи вечера я уже была готова и вышла на улицу ждать Костю."
+                }
+
+
+
+
+                
+            ]
+        }
+    ]
+    
+    
+    ,
+
+
+
+
+
+    "scena2": [
+        {
+            "background": "./images/fundal/coperta.png",
+            "text": [
+
+
+
+
+
+
+                {
+                    "name": "no",
+                    "content": "Надеюсь, вам понравилась история. Оцените работу автора Руксанды и подписывайтесь на ТГ @pocornosti."
+                }
+            ]
+        }
+    ]
+}

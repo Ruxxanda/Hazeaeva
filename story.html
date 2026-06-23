@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>История</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="robots" content="noindex">
-</head>
-<body class="story-details-page">
-  <main class="story-details">
-    <section class="story-top">
-      <div class="story-cover-wrap">
-        <img id="story-cover" class="story-cover" src="images/fundal/coperta.png" alt="Обложка истории">
-      </div>
-      <div class="story-info-panel">
-        <h1 id="story-title" class="story-main-title"></h1>
-        <p id="story-author" class="story-author"></p>
-        <div class="story-actions">
-          <button id="read-button" class="read-button">Читать историю</button>
-        </div>
-      </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>История</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="robots" content="noindex">
+  </head>
+  <body class="story-details-page">
+    <section class="info">
+
+      <nav id="page-nav" class="page-nav">
+        <button id="nav-back-button" class="nav-back-button" type="button"><i
+            class="fa-solid fa-angle-left"></i></button>
+      </nav>
+      <main class="story-details">
+        <section class="story-top">
+          <div class="story-cover-wrap">
+            <img id="story-cover" class="story-cover"
+              src="images/fundal/coperta.png" alt="Обложка истории">
+          </div>
+          <div class="story-info-panel">
+            <h1 id="story-title" class="story-main-title"></h1>
+            <p id="story-author" class="story-author"></p>
+            <div class="story-actions">
+              <button id="read-button" class="read-button">Читать
+                историю</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="story-description-block">
+          <p id="story-description" class="story-description"></p>
+        </section>
+
+        <section class="chapter-list">
+          <h2>Главы</h2>
+          <ul id="chapters-list"></ul>
+        </section>
+      </main>
     </section>
 
-    <section class="story-description-block">
-      <p id="story-description" class="story-description"></p>
-    </section>
-
-    <section class="chapter-list">
-      <h2>Главы</h2>
-      <ul id="chapters-list"></ul>
-    </section>
-  </main>
-
-  <script src="main.js" defer></script>
-</body>
+    <script src="main.js" defer></script>
+  </body>
 </html>

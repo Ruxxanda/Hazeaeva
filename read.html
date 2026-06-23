@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Читать историю</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <meta name="robots" content="noindex">
 </head>
 <body class="read-page">
+  <nav id="page-nav" class="page-nav hidden">
+    <button id="nav-back-button" class="nav-back-button" type="button"><i class="fa-solid fa-angle-left"></i></button>
+  </nav>
   <div id="loading-overlay" class="loading-overlay">
     <div class="loading-spinner"></div>
     <div class="loading-text">Идёт загрузка главы...</div>

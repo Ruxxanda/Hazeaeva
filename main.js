@@ -55,23 +55,99 @@ function getSceneEntries(data){
   return [data]
 }
 
+function initNav(){
+  const nav = qs('#page-nav')
+  const backButton = qs('#nav-back-button')
+  if(!nav || !backButton) return
+
+  backButton.addEventListener('click', event => {
+    event.stopPropagation()
+    const params = new URLSearchParams(location.search)
+    const story = params.get('story')
+    if(document.body.classList.contains('read-page')){
+      if(story){
+        location.href = `story.html?story=${encodeURIComponent(story)}`
+      } else {
+        location.href = 'story.html'
+      }
+      return
+    }
+
+    if(document.body.classList.contains('story-details-page')){
+      location.href = 'index.html'
+      return
+    }
+  })
+
+  if(document.body.classList.contains('read-page')){
+    nav.classList.add('hidden')
+    let navTimeout = null
+    const showNav = () => {
+      nav.classList.remove('hidden')
+      if(navTimeout){
+        window.clearTimeout(navTimeout)
+      }
+      navTimeout = window.setTimeout(() => nav.classList.add('hidden'), 5000)
+    }
+
+    const handleTopTap = event => {
+      if(event.target.closest('#page-nav')) return
+      const y = event.changedTouches?.[0]?.clientY ?? event.clientY
+      if(y <= 50){
+        showNav()
+      }
+    }
+
+    document.addEventListener('click', handleTopTap)
+    document.addEventListener('touchend', handleTopTap)
+  }
+}
+
 // Index page: list stories
 async function initIndex(){
-  const list = qs('#stories-list')
+  const grid = qs('#stories-grid')
   const stories = await loadJSON('history/stories.json')
   if(!stories || !stories.length){
-    list.innerHTML = '<li>Истории не найдены.</li>'
+    grid.innerHTML = '<p>Истории не найдены.</p>'
     return
   }
 
-  stories.forEach(story => {
-    const li = document.createElement('li')
+  // Render cards with cover and metadata (load per-story meta)
+  for(const story of stories){
+    const info = await loadJSON(`history/${encodeURIComponent(story.id)}/date.json`)
+    const cover = info?.cover || 'images/fundal/coperta.png'
+    const title = info?.title || story.title || story.id
+    const author = info?.author || ''
+
     const a = document.createElement('a')
+    a.className = 'story-card'
     a.href = `story.html?story=${encodeURIComponent(story.id)}`
-    a.textContent = story.title
-    li.appendChild(a)
-    list.appendChild(li)
-  })
+
+    a.innerHTML = `
+      <div class="story-card-img-wrap"><img class="story-card-img" src="${cover}" alt="${escapeHtml(title)}"></div>
+      <div class="story-card-body">
+        <h3 class="story-card-title">${escapeHtml(title)}</h3>
+        <div class="story-card-author">${escapeHtml(author)}</div>
+      </div>
+    `
+
+    grid.appendChild(a)
+  }
+  // If odd number of stories, append an empty placeholder after all real cards so it remains the last item.
+  if(stories.length % 2 === 1){
+    const placeholder = document.createElement('div')
+    placeholder.className = 'story-card story-card-empty'
+    placeholder.setAttribute('data-placeholder', 'true')
+    placeholder.setAttribute('aria-hidden', 'true')
+    placeholder.textContent = 'Здесь может быть ваша история.'
+    // keep place but no link
+    grid.appendChild(placeholder)
+  }
+}
+
+function escapeHtml(text){
+  if(!text) return ''
+  return String(text).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":"&#39;"})[ch])
 }
 
 // Story details page: show metadata and chapters
@@ -168,6 +244,10 @@ async function initRead(){
   let currentSceneIndex = 0
   let currentSceneTextEntries = []
   let currentEntryIndex = 0
+  let currentEntryText = ''
+  let entryState = 'idle'
+  let revealInterval = null
+  let nextSceneOnComplete = false
 
   function preloadImage(src){
     if(!src) return Promise.resolve()
@@ -189,7 +269,7 @@ async function initRead(){
 
       const entries = normalizeTextEntries(sceneItem)
       entries.forEach(entry => {
-        const img = entry.image || entry.characterImage || data.characterImage || ''
+        const img = entry.image || entry.characterImage || ''
         if(img) imageUrls.add(img)
       })
     })
@@ -224,180 +304,210 @@ async function initRead(){
     background.src = src
   }
 
-  function showEntry(index, entries = currentSceneTextEntries){
-    const entry = entries[index]
-    if(!entry){
-      textEl.textContent = ''
-      return
+  function stopReveal(){
+    if(revealInterval){
+      window.clearInterval(revealInterval)
+      revealInterval = null
     }
+  }
+
+  function hidePhonePanel(){
+    phonePanel.classList.remove('visible')
+    phonePanel.hidden = true
+    phoneNextButton.hidden = true
+  }
+
+  function resetDisplay(){
+    dialogue.classList.remove('visible')
+    character.classList.remove('visible')
+    dialogue.classList.remove('dialogue-center')
+    dialogue.style.filter = 'blur(6px)'
+    character.style.filter = 'blur(6px)'
+    character.style.display = 'none'
+    charName.style.display = 'none'
+    textEl.textContent = ''
+    hidePhonePanel()
+  }
+
+  function finishReveal(){
+    if(entryState !== 'revealing') return
+    stopReveal()
+    entryState = 'complete'
+    textEl.textContent = currentEntryText
+    dialogue.classList.add('visible')
+    character.classList.add('visible')
+    dialogue.style.filter = ''
+    character.style.filter = ''
+  }
+
+  function typeDialogueText(fullText){
+    stopReveal()
+    currentEntryText = fullText
+    textEl.textContent = ''
+    entryState = 'revealing'
+    dialogue.classList.add('visible')
+    character.classList.add('visible')
+    dialogue.style.filter = ''
+    character.style.filter = ''
+    const delay = 24
+    let index = 0
+    revealInterval = window.setInterval(() => {
+      index += 1
+      textEl.textContent = fullText.slice(0, index)
+      if(index >= fullText.length){
+        stopReveal()
+        entryState = 'complete'
+      }
+    }, delay)
+  }
+
+  function showPhoneEntry(entry){
+    const messages = Array.isArray(entry.mesaje) ? entry.mesaje : []
+    phoneMessages.innerHTML = ''
+
+    messages.forEach(message => {
+      const row = document.createElement('div')
+      row.className = `phone-message-row ${message.position === 'right' ? 'right' : 'left'}`
+
+      const name = document.createElement('div')
+      name.className = 'phone-message-name'
+      name.textContent = message.name || ''
+
+      const bubble = document.createElement('div')
+      bubble.className = 'phone-message-bubble'
+      bubble.textContent = message.content || ''
+
+      row.appendChild(name)
+      row.appendChild(bubble)
+      phoneMessages.appendChild(row)
+    })
+
+    hidePhonePanel()
+    phonePanel.hidden = false
+    requestAnimationFrame(() => {
+      phonePanel.classList.add('visible')
+    })
+    entryState = 'complete'
+  }
+
+  function showEntry(index){
+    const entry = currentSceneTextEntries[index]
+    if(!entry) return
 
     currentEntryIndex = index
-    const entryName = entry.name || ''
-    const isNarration = isNarrationName(entryName)
-    const isPhoneEntry = entryName.trim().toLowerCase() === 'telefon' || Array.isArray(entry.mesaje)
-    const position = (entry.position || data.position || 'center').toLowerCase()
+    entryState = 'exiting'
+    resetDisplay()
 
-    const hidePhonePanel = () => {
-      phonePanel.classList.remove('visible')
-      phonePanel.hidden = true
-      phoneNextButton.hidden = true
-    }
+    window.setTimeout(() => {
+      const entryName = entry.name || ''
+      const isNarration = isNarrationName(entryName)
+      const isPhoneEntry = entryName.trim().toLowerCase() === 'telefon' || Array.isArray(entry.mesaje)
+      const position = (entry.position || data.position || 'center').toLowerCase()
+      const entryText = entry.content ?? entry.text ?? ''
+      const imageSrc = (entry.image || entry.characterImage || '').toString()
+      const resolvedImageSrc = imageSrc ? new URL(imageSrc, location.href).href : ''
 
-    const fadeOut = () => {
-      dialogue.classList.remove('visible')
-      character.classList.remove('visible')
-      dialogue.style.filter = 'blur(6px)'
-      character.style.filter = 'blur(6px)'
-      hidePhonePanel()
-    }
-
-    const fadeIn = () => {
-      dialogue.style.filter = 'blur(0)'
-      character.style.filter = 'blur(0)'
-      window.setTimeout(() => {
-        dialogue.classList.add('visible')
-        if(!isNarration){
-          character.classList.add('visible')
-        }
-      }, 10)
-    }
-
-    const showNarration = () => {
-      character.src = ''
-      character.style.display = 'none'
-      character.className = 'character'
-      charName.textContent = ''
-      charName.style.display = 'none'
-      dialogue.classList.remove('dialogue-center')
-      dialogue.classList.add('dialogue-center')
-      textEl.textContent = entry.content || entry.text || ''
-      fadeIn()
-    }
-
-    const showPhoneMessages = () => {
-      const messages = Array.isArray(entry.mesaje) ? entry.mesaje : []
-      phoneMessages.innerHTML = ''
-
-      messages.forEach(message => {
-        const row = document.createElement('div')
-        row.className = `phone-message-row ${message.position === 'right' ? 'right' : 'left'}`
-
-        const name = document.createElement('div')
-        name.className = 'phone-message-name'
-        name.textContent = message.name || ''
-
-        const bubble = document.createElement('div')
-        bubble.className = 'phone-message-bubble'
-        bubble.textContent = message.content || ''
-
-        row.appendChild(name)
-        row.appendChild(bubble)
-        phoneMessages.appendChild(row)
-      })
-
-      phonePanel.hidden = false
-      phoneNextButton.hidden = false
-      requestAnimationFrame(() => {
-        phonePanel.classList.add('visible')
-      })
-
-      dialogue.classList.remove('visible')
-      character.classList.remove('visible')
-      charName.textContent = ''
-      charName.style.display = 'none'
-      textEl.textContent = ''
-      dialogue.classList.remove('dialogue-center')
-    }
-
-    const applyEntry = () => {
       if(isPhoneEntry){
-        showPhoneMessages()
+        charName.textContent = ''
+        textEl.textContent = ''
+        showPhoneEntry(entry)
         return
       }
 
       if(isNarration){
-        showNarration()
-        return
-      }
-
-      const imageSrc = entry.image || data.characterImage || ''
-      character.className = `character ${position}`
-      character.style.display = 'block'
-      character.src = imageSrc
-
-      character.onload = () => {
-        fadeIn()
-      }
-      character.onerror = () => {
+        charName.textContent = ''
+        charName.style.display = 'none'
+        dialogue.classList.add('dialogue-center')
+        dialogue.classList.remove('name-left', 'name-right')
         character.style.display = 'none'
-        character.classList.remove('visible')
+        character.src = ''
+        typeDialogueText(entryText)
+        return
       }
 
       charName.textContent = entryName
       charName.style.display = 'block'
       dialogue.classList.remove('dialogue-center')
-      textEl.textContent = entry.content || entry.text || ''
-      fadeIn()
-    }
+      textEl.textContent = ''
 
-    fadeOut()
-    const delay = 450
-    window.setTimeout(applyEntry, delay)
+      character.className = `character ${position}`
+      dialogue.classList.remove('name-left', 'name-right')
+      if(position === 'left'){
+        dialogue.classList.add('name-left')
+        charName.style.right = 'auto'
+        charName.style.left = '24px'
+      } else if(position === 'right'){
+        dialogue.classList.add('name-right')
+        charName.style.left = 'auto'
+        charName.style.right = '24px'
+      } else {
+        charName.style.right = '24px'
+        charName.style.left = 'auto'
+      }
+
+      if(imageSrc){
+        character.style.display = 'block'
+        character.onload = () => {
+          if(character.src === resolvedImageSrc || character.currentSrc === resolvedImageSrc){
+            character.classList.add('visible')
+          }
+        }
+        character.onerror = () => {
+          character.style.display = 'none'
+          character.classList.remove('visible')
+        }
+        character.src = resolvedImageSrc
+      } else {
+        character.style.display = 'none'
+        character.classList.remove('visible')
+        character.src = ''
+      }
+
+      typeDialogueText(entryText)
+    }, 10)
   }
 
   function showScene(index){
-    const scene = scenes[index]
-    if(!scene) return
+    const sceneData = scenes[index]
+    if(!sceneData) return
 
     currentSceneIndex = index
-    currentSceneTextEntries = normalizeTextEntries(scene)
+    currentSceneTextEntries = normalizeTextEntries(sceneData)
     currentEntryIndex = 0
 
-    setBackground(scene.background || scene.backgroundImage || '', () => {
+    setBackground(sceneData.background || sceneData.backgroundImage || '', () => {
       if(currentSceneTextEntries.length){
-        showEntry(0, currentSceneTextEntries)
+        showEntry(0)
       } else {
-        textEl.textContent = scene.text || scene.content || ''
+        resetDisplay()
+        textEl.textContent = sceneData.text || sceneData.content || ''
+        dialogue.classList.add('visible')
       }
     })
   }
 
-  preloadChapterAssets()
-    .then(() => {
-      if(loadingOverlay) loadingOverlay.style.display = 'none'
-      if(scenes.length){
-        showScene(0)
-      } else {
-        textEl.textContent = data.text || data.content || ''
-      }
-    })
-    .catch(() => {
-      if(loadingOverlay) loadingOverlay.style.display = 'none'
-      if(scenes.length){
-        showScene(0)
-      } else {
-        textEl.textContent = data.text || data.content || ''
-      }
-    })
-
-  const showEndButton = () => {
+  function showEndButton(){
     endButton.hidden = false
   }
 
-  const hideEndButton = () => {
+  function hideEndButton(){
     endButton.hidden = true
   }
 
-  endButton.addEventListener('click', (event) => {
-    event.stopPropagation()
-    location.href = `story.html?story=${encodeURIComponent(story)}`
-  })
+  function goToNext(){
+    if(entryState === 'revealing'){
+      finishReveal()
+      return
+    }
 
-  const goToNext = () => {
+    if(entryState !== 'complete'){
+      return
+    }
+
     const entries = currentSceneTextEntries
     if(entries.length > 1 && currentEntryIndex < entries.length - 1){
       hideEndButton()
-      showEntry(currentEntryIndex + 1, entries)
+      showEntry(currentEntryIndex + 1)
       return
     }
 
@@ -407,40 +517,72 @@ async function initRead(){
       return
     }
 
-    if(!chapters || !chapters.length){
-      showEndButton()
-      return
-    }
-
-    // After finishing a chapter, always go back to the story page.
     showEndButton()
   }
 
-  scene.addEventListener('click', (event) => {
+  let lastTouchTime = 0
+
+  function handleSceneTap(event){
     const target = event.target
     if(target.closest('#phone-panel') || target.closest('#phone-next-button')){
       return
     }
-    goToNext()
-  })
 
-  scene.addEventListener('touchend', (event) => {
-    const target = event.target
-    if(target.closest('#phone-panel') || target.closest('#phone-next-button')){
+    if(event.type === 'touchend'){
+      const y = event.changedTouches?.[0]?.clientY
+      // If touch is within the top 50px, allow propagation so nav handler can run
+      if(typeof y === 'number' && y <= 50){
+        return
+      }
+      event.preventDefault()
+      event.stopPropagation()
+      lastTouchTime = Date.now()
+      goToNext()
       return
     }
-    goToNext()
-  })
 
-  phoneNextButton.addEventListener('click', (event) => {
+    if(event.type === 'click' && Date.now() - lastTouchTime < 500){
+      return
+    }
+
+    goToNext()
+  }
+
+  endButton.addEventListener('click', (event) => {
     event.stopPropagation()
-    goToNext()
+    location.href = `story.html?story=${encodeURIComponent(story)}`
   })
+
+  scene.addEventListener('click', handleSceneTap)
+  scene.addEventListener('touchend', handleSceneTap)
 
   hideEndButton()
+
+  preloadChapterAssets()
+    .then(() => {
+      if(loadingOverlay) loadingOverlay.style.display = 'none'
+      if(scenes.length){
+        showScene(0)
+      } else {
+        resetDisplay()
+        textEl.textContent = data.text || data.content || ''
+        dialogue.classList.add('visible')
+      }
+    })
+    .catch(() => {
+      if(loadingOverlay) loadingOverlay.style.display = 'none'
+      if(scenes.length){
+        showScene(0)
+      } else {
+        resetDisplay()
+        textEl.textContent = data.text || data.content || ''
+        dialogue.classList.add('visible')
+      }
+    })
 }
 
 document.addEventListener('DOMContentLoaded', ()=>{
+  initNav()
   if(document.body.classList.contains('index-page')) initIndex()
   if(document.body.classList.contains('story-details-page')) initStoryDetails()
   if(document.body.classList.contains('read-page')) initRead()
