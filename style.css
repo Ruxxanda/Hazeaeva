@@ -352,6 +352,20 @@ section.info {
     z-index: 0
 }
 
+.scene-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.2) 100%);
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.scene-overlay.visible {
+    opacity: 1;
+}
+
 .character {
     position: absolute;
     bottom: 0;

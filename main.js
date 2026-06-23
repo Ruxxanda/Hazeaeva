@@ -222,6 +222,7 @@ async function initRead(){
   const phoneMessages = qs('#phone-messages')
   const phoneNextButton = qs('#phone-next-button')
   const scene = qs('#scene')
+  const sceneOverlay = qs('#scene-overlay')
   const endButton = qs('#end-button')
 
   if(loadingOverlay) loadingOverlay.style.display = 'flex'
@@ -302,6 +303,24 @@ async function initRead(){
       if(onReady) onReady()
     }
     background.src = src
+  }
+
+  function applySceneMood(sceneData){
+    const color = String(sceneData?.color || '').trim().toLowerCase()
+    const isNightScene = color === '#000000' || color === 'black'
+
+    if(sceneOverlay){
+      sceneOverlay.classList.toggle('visible', isNightScene)
+    }
+
+    if(background){
+      const currentFilter = background.style.filter || ''
+      if(isNightScene){
+        background.style.filter = currentFilter.includes('brightness') ? currentFilter : 'brightness(0.74) saturate(0.9)'
+      } else {
+        background.style.filter = currentFilter.includes('brightness') ? 'blur(0)' : 'blur(0)'
+      }
+    }
   }
 
   function stopReveal(){
@@ -476,6 +495,7 @@ async function initRead(){
     currentEntryIndex = 0
 
     setBackground(sceneData.background || sceneData.backgroundImage || '', () => {
+      applySceneMood(sceneData)
       if(currentSceneTextEntries.length){
         showEntry(0)
       } else {

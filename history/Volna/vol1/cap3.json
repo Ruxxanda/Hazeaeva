@@ -1,0 +1,1512 @@
+{
+    "scena1": [
+        {
+            "background": "./images/fundal/in casa.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Спустившись на первый этаж, я сразу услышала громкий смех."
+                },
+                {
+                    "name": "no",
+                    "content": "Вся компания собралась в гостиной."
+                },
+                {
+                    "name": "no",
+                    "content": "Фрейм снимал на большую камеру Илью, который уже несколько минут пытался что-то сказать на запись."
+                },
+                {
+                    "name": "no",
+                    "content": "Проблема была только в том, что остальные постоянно его перебивали."
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Да закончите вы уже наконец! Мне нужно записать вступление для ролика!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Вступление? Я думал, ты его уже снял."
+                },
+                {
+                    "name": "Костя",
+                    "position": "right",
+                    "image": "./images/personaje/Kostea.png",
+                    "content": "Да, Илюша, ты уже минут десять снимаешь одно и то же начало."
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Так не отвлекайте меня!"
+                },
+                {
+                    "name": "no",
+                    "content": "Я подошла ближе."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Что вы тут делаете?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "О, Крис. Займи их чем-нибудь, а то я из-за них говорить не могу."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "А что снимаешь?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Завтра будем снимать ролик про соседнюю ферму для моего канала. А эти идиоты не дают мне даже вступление записать."
+                },
+                {
+                    "name": "Данила",
+                    "position": "right",
+                    "image": "./images/personaje/Gorila.png",
+                    "content": "Да ладно тебе, Илюша, не нервничай. Через час снимешь."
+                },
+                {
+                    "name": "no",
+                    "content": "Я решила перевести тему."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "А есть что-нибудь поесть? Я с самого утра ничего не ела..."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Да, сейчас шашлык будем делать. Будешь?"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Конечно! А долго ещё ждать?"
+                },
+                {
+                    "name": "Костя",
+                    "position": "right",
+                    "image": "./images/personaje/Kostea.png",
+                    "content": "Так, народ, пошли разводить костёр. Уже темнеет."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "А кроме шашлыка что-нибудь будет?"
+                },
+                {
+                    "name": "Данила",
+                    "position": "right",
+                    "image": "./images/personaje/Gorila.png",
+                    "content": "Мы овощей на салат купили. Бери Лёшу и режьте салат."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Отлично! Лёша, пошли покажешь, что и где лежит."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Слушаюсь, командир!"
+                },
+                {
+                    "name": "no",
+                    "content": "В комнате тут же раздался смех."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Эй, а почему командир?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Не нравится?"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Нет!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Генерал у нас уже есть. Теперь будет ещё и командир."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Мне вообще не нравится эта идея!"
+                },
+                {
+                    "name": "no",
+                    "content": "Я шагнула к нему."
+                },
+                {
+                    "name": "no",
+                    "content": "Лёша сразу сорвался с места и побежал через гостиную."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Помогите, пацаны! Она меня убьёт!"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Не убью! Просто оторву тебе яйца!"
+                },
+                {
+                    "name": "no",
+                    "content": "Смех стал ещё громче."
+                },
+                {
+                    "name": "Данила",
+                    "position": "right",
+                    "image": "./images/personaje/Gorila.png",
+                    "content": "Тише! Тише!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Мои яйца?! Они мне ещё нужны!"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Скоро уже нет!"
+                },
+                {
+                    "name": "no",
+                    "content": "Фрейм и Илья согнулись пополам от смеха."
+                },
+                {
+                    "name": "no",
+                    "content": "Данила несколько секунд пытался меня догнать, но быстро сдался."
+                },
+                {
+                    "name": "Данила",
+                    "position": "right",
+                    "image": "./images/personaje/Gorila.png",
+                    "content": "Всё! Я больше не могу бегать! Лёша, ничем помочь не могу. Останешься без колокольчиков."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Вот именно! Бесполезно убегать, Лёша!"
+                },
+                {
+                    "name": "no",
+                    "content": "Лёша схватил диванную подушку и начал отбиваться."
+                },
+                {
+                    "name": "no",
+                    "content": "Я ущипнула его за бок."
+                },
+                {
+                    "name": "no",
+                    "content": "Он тут же взвизгнул."
+                },
+                {
+                    "name": "no",
+                    "content": "Очень громко."
+                },
+                {
+                    "name": "no",
+                    "content": "Подозрительно громко."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Крис, не развращай его, а то Саша обидится."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Чего?!"
+                },
+                {
+                    "name": "no",
+                    "content": "От смеха у меня уже начинал болеть живот."
+                },
+                {
+                    "name": "no",
+                    "content": "Лёша внезапно прыгнул на меня."
+                },
+                {
+                    "name": "no",
+                    "content": "Мы вместе рухнули на диван."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Поймал!"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Слезь с меня!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Не слезу, пока не пообещаешь оставить мои яйца в покое!"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Лёша!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Клянись!"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Ладно! Клянусь!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Вот и отлично."
+                },
+                {
+                    "name": "no",
+                    "content": "Он наконец поднялся и протянул мне руку."
+                },
+                {
+                    "name": "no",
+                    "content": "Я взяла её и тоже встала."
+                },
+                {
+                    "name": "no",
+                    "content": "Смеяться мы продолжали ещё несколько минут."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Всё, хватит! Идите уже разводить свой костёр. На улице скоро ночь будет."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevich.png",
+                    "content": "Крис права, пошли."
+                },
+                {
+                    "name": "Костя",
+                    "position": "right",
+                    "image": "./images/personaje/Kostea.png",
+                    "content": "Это мы тебя вообще-то ждём!"
+                },
+                {
+                    "name": "no",
+                    "content": "Через пару минут Костя, Саша и Данила ушли во двор заниматься шашлыком."
+                },
+                {
+                    "name": "no",
+                    "content": "Фрейм остался помогать Илье со съёмкой."
+                },
+                {
+                    "name": "no",
+                    "content": "А мы с Лёшей отправились на кухню делать салат."
+                }
+            ]
+        }
+    ],
+    "scena2": [
+        {
+            "background": "./images/fundal/bucatarie.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Пока он доставал овощи из холодильника, я мыла их в раковине."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "А почему вы постоянно мешаете Илье снимать?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Уже традиция."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "В смысле?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Он всегда очень долго записывает вступления и объясняет правила. Поэтому мы его специально отвлекаем."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "И это вы называете поддержкой?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Ну... в каком-то смысле."
+                },
+                {
+                    "name": "no",
+                    "content": "Я рассмеялась."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "И почему вы называете его Пупуня?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Данила придумал."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Серьёзно?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Ага. Илья слишком добрый и слишком хороший человек. Поэтому и Пупуня."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Не могу поверить."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Привыкай."
+                },
+                {
+                    "name": "no",
+                    "content": "Мы снова засмеялись."
+                },
+                {
+                    "name": "no",
+                    "content": "Я взяла нож и начала нарезать огурцы."
+                },
+                {
+                    "name": "no",
+                    "content": "Лёша устроился рядом и принялся рассказывать разные истории из их компании."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Однажды мы пошли на аттракционы во время стрима. Проблема была в том, что с камерой туда нельзя."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "И вы всё равно её взяли?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Конечно."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "И что потом?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Влад так разозлился! Кричал на нас минут десять. Всё повторял, что правила существуют не просто так."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Влад? Куертов?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Ну да."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Честно говоря, я представляла его совсем другим."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Каким?"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Таким серьёзным бизнесменом. Миллионером. Владельцем огромного проекта."
+                },
+                {
+                    "name": "no",
+                    "content": "Лёша рассмеялся."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Что смешного?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Ты думаешь, миллионеры не могут творить глупости?"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Не знаю. Просто после разговора в машине мне всё это кажется каким-то нереальным."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Поверь, Влад абсолютно нормальный человек."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Пока не верится."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Скоро увидишь сама."
+                },
+                {
+                    "name": "no",
+                    "content": "Он хитро посмотрел на меня."
+                }
+            ]
+        }
+    ],
+    "scena3": [
+        {
+            "background": "./images/fundal/masa.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Мы расставили всё на столе и наконец начали ужинать."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья обсуждал с Костей и Сашей завтрашние съёмки."
+                },
+                {
+                    "name": "no",
+                    "content": "Фрейм расспрашивал Данилу, где тот купил мясо, потому что шашлык получился невероятно вкусным."
+                },
+                {
+                    "name": "no",
+                    "content": "Данила только довольно улыбался."
+                },
+                {
+                    "name": "Данила",
+                    "position": "right",
+                    "image": "./images/personaje/Gorila.png",
+                    "content": "Вообще-то маринад делал я."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Так вот в чём секрет."
+                },
+                {
+                    "name": "no",
+                    "content": "Фрейм кивнул."
+                },
+                {
+                    "name": "no",
+                    "content": "Рядом со мной сидел Лёша, который был полностью сосредоточен на еде."
+                },
+                {
+                    "name": "no",
+                    "content": "Ещё одно место оставалось свободным."
+                },
+                {
+                    "name": "no",
+                    "content": "Для Влада."
+                },
+                {
+                    "name": "no",
+                    "content": "Входная дверь открылась."
+                },
+                {
+                    "name": "no",
+                    "content": "В дом вошёл высокий парень с тёмными кудрявыми волосами."
+                },
+                {
+                    "name": "no",
+                    "content": "Его глаза напомнили мне тёмный шоколад."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Владос, привет!"
+                },
+                {
+                    "name": "no",
+                    "content": "Парни сразу начали здороваться с ним за руку."
+                },
+                {
+                    "name": "no",
+                    "content": "Когда очередь дошла до меня, Влад остановился рядом."
+                },
+                {
+                    "name": "no",
+                    "content": "Вместо обычного рукопожатия он аккуратно взял мою ладонь и легко коснулся её губами."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Кристина, правильно?"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Да. А ты Влад?"
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Именно."
+                },
+                {
+                    "name": "no",
+                    "content": "На его лице появилась улыбка."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Очень хорошо выглядишь. Эти оболтусы тебя ещё не обидели?"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Нет. Мы отлично проводим время."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Прекрасно."
+                },
+                {
+                    "name": "Костя",
+                    "position": "right",
+                    "image": "./images/personaje/Kostea.png",
+                    "content": "Видишь?"
+                },
+                {
+                    "name": "no",
+                    "content": "Костя вмешался."
+                },
+                {
+                    "name": "Костя",
+                    "position": "right",
+                    "image": "./images/personaje/Kostea.png",
+                    "content": "Ты мне должна шоколадку."
+                },
+                {
+                    "name": "no",
+                    "content": "Он подмигнул."
+                },
+                {
+                    "name": "no",
+                    "content": "Все сразу посмотрели на нас."
+                },
+                {
+                    "name": "Данила",
+                    "position": "right",
+                    "image": "./images/personaje/Gorila.png",
+                    "content": "О чём речь?"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Мы поспорили по дороге."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Если я быстро найду общий язык со всеми, то покупаю Косте шоколадку. Если нет, то он покупает её мне."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Отменяется."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Почему?"
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Потому что я сам куплю тебе две шоколадки."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "А ему?"
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Одну."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Это ещё почему?"
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Потому что ты девушка."
+                },
+                {
+                    "name": "no",
+                    "content": "Он сделал паузу."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "И потому что очень красивая девушка."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Оууу, Владик..."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Лёша, молча ешь."
+                },
+                {
+                    "name": "no",
+                    "content": "Все рассмеялись."
+                },
+                {
+                    "name": "no",
+                    "content": "Ужин продолжался ещё долго."
+                },
+                {
+                    "name": "no",
+                    "content": "Разговоры постоянно перескакивали с одной темы на другую."
+                },
+                {
+                    "name": "no",
+                    "content": "Казалось, что в этой компании невозможно просидеть хотя бы минуту в тишине."
+                },
+                {
+                    "name": "no",
+                    "content": "Когда все наелись, мы начали убирать со стола."
+                }
+            ]
+        }
+    ],
+    "scena4": [
+        {
+            "background": "./images/fundal/bucatarie.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Влад сразу поднялся помогать мне."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Не нужно."
+                },
+                {
+                    "name": "no",
+                    "content": "Сказала я."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Ты сам говорил, что я девушка."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Говорил."
+                },
+                {
+                    "name": "no",
+                    "content": "Он забрал у меня стопку тарелок."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "А ещё говорил, что ты очень красивая девушка."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "И?"
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Красивым девушкам положена помощь."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Если ты так считаешь..."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Считаю."
+                },
+                {
+                    "name": "no",
+                    "content": "Мы вместе начали мыть посуду."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Кстати, наши комнаты рядом."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Я заметила."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Если понадобится помощь, заходи."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Спасибо, но я не думаю, что столкнусь с проблемой, которую не смогу решить сама."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "А я всё равно настаиваю."
+                },
+                {
+                    "name": "no",
+                    "content": "Мы тихо засмеялись."
+                },
+                {
+                    "name": "no",
+                    "content": "Через некоторое время вся посуда была вымыта."
+                }
+            ]
+        }
+    ],
+    "scena5": [
+        {
+            "background": "./images/fundal/canapea.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Вернувшись в гостиную, я снова устроилась рядом с ребятами."
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Pupunia.png",
+                    "content": "Крис."
+                },
+                {
+                    "name": "no",
+                    "content": "Обратился ко мне Илья."
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Pupunia.png",
+                    "content": "Завтра мы едем снимать ролик на ферму. Хочешь поехать с нами?"
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Конечно."
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Pupunia.png",
+                    "content": "Участвовать не придётся. Просто побудешь рядом."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Мне интересно посмотреть, как вы работаете."
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Pupunia.png",
+                    "content": "Отлично. Тогда будь готова к половине девятого."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Хорошо."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья перевёл взгляд на остальных."
+                },
+                {
+                    "name": "Илья",
+                    "position": "right",
+                    "image": "./images/personaje/Pupunia.png",
+                    "content": "А вы будьте готовы к семи утра. Потому что я знаю вас."
+                },
+                {
+                    "name": "Костя",
+                    "position": "right",
+                    "image": "./images/personaje/Kostea.png",
+                    "content": "Ни в коем случае не опоздаем, Пупуня."
+                },
+                {
+                    "name": "no",
+                    "content": "Дом снова наполнился смехом."
+                },
+                {
+                    "name": "no",
+                    "content": "Ближе к ночи все начали расходиться по комнатам."
+                },
+                {
+                    "name": "no",
+                    "content": "Парни ещё остались внизу болтать."
+                }
+            ]
+        }
+    ],
+    "scena6": [
+        {
+            "background": "./images/fundal/camere.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "А я, Данила, Фрейм и Саша отправились спать."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Спокойной ночи!"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Доброй ночи!"
+                },
+                {
+                    "name": "Саша",
+                    "position": "right",
+                    "image": "./images/personaje/Sasha.png",
+                    "content": "До завтра!"
+                },
+                {
+                    "name": "no",
+                    "content": "Я пожелала всем спокойной ночи и поднялась к себе."
+                }
+            ]
+        }
+    ],
+    "scena7": [
+        {
+            "background": "./images/fundal/camera cris.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "В комнате было прохладно и тихо."
+                },
+                {
+                    "name": "no",
+                    "content": "Открыв окно, я впустила внутрь свежий ночной воздух."
+                },
+                {
+                    "name": "no",
+                    "content": "Потом переоделась в пижаму и легла в кровать."
+                }
+            ]
+        }
+    ],
+    "scena8": [
+        {
+            "background": "./images/fundal/camera cris.jpg",
+            "color": "#000000",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Когда я открыла глаза, на часах был уже час ночи."
+                },
+                {
+                    "name": "no",
+                    "content": "Меня разбудили какие-то звуки."
+                },
+                {
+                    "name": "no",
+                    "content": "Сначала показалось, что это сон."
+                },
+                {
+                    "name": "no",
+                    "content": "Но шум повторился."
+                }
+            ]
+        }
+    ],
+    "scena9": [
+        {
+            "background": "./images/fundal/camere.jpg",
+            "color": "#000000",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Я вышла в коридор."
+                },
+                {
+                    "name": "no",
+                    "content": "В доме было темно."
+                },
+                {
+                    "name": "no",
+                    "content": "Откуда-то с первого этажа доносились шаги."
+                },
+                {
+                    "name": "no",
+                    "content": "По спине пробежали мурашки."
+                },
+                {
+                    "name": "no",
+                    "content": "Я быстро подошла к комнате Лёши."
+                },
+                {
+                    "name": "no",
+                    "content": "Пусто."
+                },
+                {
+                    "name": "no",
+                    "content": "Комната Саши тоже оказалась пустой."
+                },
+                {
+                    "name": "no",
+                    "content": "У Влада дверь была закрыта."
+                },
+                {
+                    "name": "no",
+                    "content": "Сердце начинало биться всё быстрее."
+                },
+                {
+                    "name": "no",
+                    "content": "Собравшись с духом, я спустилась вниз."
+                }
+            ]
+        }
+    ],
+    "scena10": [
+        {
+            "background": "./images/fundal/in casa.jpg",
+            "color": "#000000",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "В темноте было трудно что-либо разглядеть."
+                },
+                {
+                    "name": "no",
+                    "content": "Я попыталась найти выключатель."
+                },
+                {
+                    "name": "no",
+                    "content": "И вдруг почувствовала чью-то руку на своём плече."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "ААААА!"
+                },
+                {
+                    "name": "no",
+                    "content": "Я закричала так громко, что сама испугалась."
+                }
+            ]
+        }
+    ],
+    "scena11": [
+        {
+            "background": "./images/fundal/in casa.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "В ту же секунду включился свет."
+                },
+                {
+                    "name": "no",
+                    "content": "Передо мной стояли все парни."
+                },
+                {
+                    "name": "no",
+                    "content": "Живые."
+                },
+                {
+                    "name": "no",
+                    "content": "Здоровые."
+                },
+                {
+                    "name": "no",
+                    "content": "И очень удивлённые."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Что случилось?"
+                },
+                {
+                    "name": "no",
+                    "content": "Спросил Влад."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Что случилось?!"
+                },
+                {
+                    "name": "no",
+                    "content": "Я была готова их прибить."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Вы ещё спрашиваете?! Я услышала шум и пришла проверить, что происходит! Почему вы не спите?! И зачем так пугать?!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Мы думали, что это Илья."
+                },
+                {
+                    "name": "no",
+                    "content": "Признался Лёша."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "В темноте не было видно. Хотели его напугать."
+                },
+                {
+                    "name": "no",
+                    "content": "Влад сразу заметил, что я всё ещё дрожу от испуга."
+                },
+                {
+                    "name": "no",
+                    "content": "Он осторожно обнял меня за плечи."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Прости. Мы правда не хотели тебя напугать."
+                },
+                {
+                    "name": "no",
+                    "content": "Остальные тоже начали извиняться."
+                },
+                {
+                    "name": "no",
+                    "content": "После нескольких минут уговоров я наконец успокоилась."
+                }
+            ]
+        }
+    ],
+    "scena12": [
+        {
+            "background": "./images/fundal/camere.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Парни проводили меня до комнаты."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Спокойной ночи."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Спокойной ночи."
+                },
+                {
+                    "name": "Данила",
+                    "position": "right",
+                    "image": "./images/personaje/Gorila.png",
+                    "content": "Доброй ночи, Крис."
+                },
+                {
+                    "name": "no",
+                    "content": "Я закрыла дверь."
+                }
+            ]
+        }
+    ],
+    "scena13": [
+        {
+            "background": "./images/fundal/camera cris.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Но уснуть уже не могла."
+                },
+                {
+                    "name": "no",
+                    "content": "Полчаса прошли впустую."
+                },
+                {
+                    "name": "no",
+                    "content": "В итоге я взяла телефон."
+                },
+                {
+                    "name": "no",
+                    "content": "В уведомлениях обнаружилось несколько новых подписок."
+                },
+                {
+                    "name": "no",
+                    "content": "Оказалось, что парни нашли мой Instagram."
+                },
+                {
+                    "name": "no",
+                    "content": "Я приняла запросы и подписалась на них в ответ."
+                },
+                {
+                    "name": "no",
+                    "content": "Почти сразу пришло новое сообщение."
+                },
+                {
+                    "name": "no",
+                    "content": "От Влада."
+                },
+                {
+                    "name": "telefon",
+                    "mesaje": [
+                        {
+                            "name": "Влад",
+                            "position": "left",
+                            "content": "Не спишь?"
+                        },
+                        {
+                            "name": "Кристина",
+                            "position": "right",
+                            "content": "Тебе могу задать тот же вопрос."
+                        },
+                        {
+                            "name": "Влад",
+                            "position": "left",
+                            "content": "Я только зашёл в комнату."
+                        },
+                        {
+                            "name": "Кристина",
+                            "position": "right",
+                            "content": "Вот как..."
+                        },
+                        {
+                            "name": "Влад",
+                            "position": "left",
+                            "content": "А ты?"
+                        },
+                        {
+                            "name": "Кристина",
+                            "position": "right",
+                            "content": "Не могу уснуть после вашего сюрприза."
+                        },
+                        {
+                            "name": "Влад",
+                            "position": "left",
+                            "content": "Извини."
+                        },
+                        {
+                            "name": "Кристина",
+                            "position": "right",
+                            "content": "Ничего."
+                        },
+                        {
+                            "name": "Влад",
+                            "position": "left",
+                            "content": "Кажется, я знаю, как исправить ситуацию."
+                        },
+                        {
+                            "name": "Кристина",
+                            "position": "right",
+                            "content": "И как?"
+                        },
+                        {
+                            "name": "Влад",
+                            "position": "left",
+                            "content": "Открой дверь."
+                        }
+                    ]
+                },
+                {
+                    "name": "no",
+                    "content": "Я нахмурилась."
+                },
+                {
+                    "name": "no",
+                    "content": "В этот момент в дверь тихо постучали."
+                },
+                {
+                    "name": "no",
+                    "content": "Подойдя к двери, я открыла её."
+                },
+                {
+                    "name": "no",
+                    "content": "На пороге стоял Влад."
+                },
+                {
+                    "name": "no",
+                    "content": "В руках у него была коробка шоколадных конфет."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Ого..."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Держи."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Правда не нужно."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Нужно."
+                },
+                {
+                    "name": "no",
+                    "content": "Я невольно улыбнулась."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Мы знакомы меньше суток, а ты уже такой заботливый."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Ничего не могу с собой поделать."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Почему же?"
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Потому что передо мной очень красивая девушка."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Не льсти мне."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Я говорю правду."
+                },
+                {
+                    "name": "no",
+                    "content": "Несколько секунд мы просто смотрели друг на друга."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Спасибо, Влад."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "А теперь успокаивайся и ложись спать."
+                },
+                {
+                    "name": "no",
+                    "content": "Он сделал шаг назад."
+                },
+                {
+                    "name": "Влад",
+                    "position": "right",
+                    "image": "./images/personaje/Vlad.png",
+                    "content": "Спокойной ночи, Крис."
+                },
+                {
+                    "name": "Кристина",
+                    "position": "left",
+                    "image": "./images/personaje/Kris.png",
+                    "content": "Спокойной ночи."
+                },
+                {
+                    "name": "no",
+                    "content": "Влад ушёл к себе."
+                },
+                {
+                    "name": "no",
+                    "content": "Я поставила коробку на стол."
+                },
+                {
+                    "name": "no",
+                    "content": "Забравшись под одеяло, ещё долго смотрела в потолок."
+                },
+                {
+                    "name": "no",
+                    "content": "А потом сама не заметила, как уснула с мыслями о Владе."
+                }
+            ]
+        }
+    ]
+}
