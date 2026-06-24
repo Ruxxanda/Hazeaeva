@@ -1,7 +1,7 @@
 {
   "scena1": [
     {
-      "background": "/poze/fundal/casa cris.jpg",
+      "background": "/history/Volna/poze/fundal/casa cris.jpg",
       "text": [
         {
           "name": "no",
@@ -74,7 +74,7 @@
         {
           "name": "Кристина",
           "position": "left",
-          "image": "/poze/personaje/Kris.png",
+          "image": "./images/personaje/Kris.png",
           "content": "Кто там ещё может быть в это время?"
         },
         {
@@ -91,6 +91,7 @@
         },
         {
           "name": "telefon",
+          "nikname": "Exile",
           "mesaje": [
             {
               "name": "Exile",
@@ -144,7 +145,7 @@
   ],
   "scena2": [
     {
-      "background": "/poze/fundal/coperta.png",
+      "background": "/history/Volna/poze/fundal/coperta.png",
       "text": [
         {
           "name": "no",
