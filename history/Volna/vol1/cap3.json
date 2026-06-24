@@ -90,7 +90,7 @@
                 {
                     "name": "Саша",
                     "position": "right",
-                    "image": "./images/personaje/Paradeevich.png",
+                    "image": "./images/personaje/Paradeevici.png",
                     "content": "Да, сейчас шашлык будем делать. Будешь?"
                 },
                 {
@@ -332,7 +332,7 @@
                 {
                     "name": "Парадеевич",
                     "position": "right",
-                    "image": "./images/personaje/Paradeevich.png",
+                    "image": "./images/personaje/Paradeevici.png",
                     "content": "Крис права, пошли."
                 },
                 {
@@ -358,7 +358,7 @@
     ],
     "scena2": [
         {
-            "background": ".poze/fundal/bucatarie.jpg",
+            "background": "history/Volna/poze/fundal/bucatarie.jpg",
             "text": [
                 {
                     "name": "no",
@@ -561,7 +561,7 @@
     ],
     "scena3": [
         {
-            "background": ".poze/fundal/masa.jpg",
+            "background": "history/Volna/poze/fundal/masa.jpg",
             "text": [
                 {
                     "name": "no",
@@ -808,7 +808,7 @@
     ],
     "scena4": [
         {
-            "background": ".poze/fundal/bucatarie.jpg",
+            "background": "history/Volna/poze/fundal/bucatarie.jpg",
             "text": [
                 {
                     "name": "no",
@@ -917,7 +917,7 @@
     ],
     "scena5": [
         {
-            "background": ".poze/fundal/canapea.jpg",
+            "background": "history/Volna/poze/fundal/canapea.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1002,7 +1002,7 @@
     ],
     "scena6": [
         {
-            "background": ".poze/fundal/camere.jpg",
+            "background": "history/Volna/poze/fundal/camere.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1023,7 +1023,7 @@
                 {
                     "name": "Саша",
                     "position": "right",
-                    "image": "./images/personaje/Paradeevich.png",
+                    "image": "./images/personaje/Paradeevici.png",
                     "content": "До завтра!"
                 },
                 {
@@ -1035,7 +1035,7 @@
     ],
     "scena7": [
         {
-            "background": ".poze/fundal/camera cris.jpg",
+            "background": "history/Volna/poze/fundal/camera cris.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1054,7 +1054,7 @@
     ],
     "scena8": [
         {
-            "background": ".poze/fundal/camera cris.jpg",
+            "background": "history/Volna/poze/fundal/camera cris.jpg",
             "color": "#000000",
             "text": [
                 {
@@ -1078,7 +1078,7 @@
     ],
     "scena9": [
         {
-            "background": ".poze/fundal/camere.jpg",
+            "background": "history/Volna/poze/fundal/camere.jpg",
             "color": "#000000",
             "text": [
                 {
@@ -1126,7 +1126,7 @@
     ],
     "scena10": [
         {
-            "background": ".poze/fundal/in casa.jpg",
+            "background": "history/Volna/poze/fundal/in casa.jpg",
             "color": "#000000",
             "text": [
                 {
@@ -1156,7 +1156,7 @@
     ],
     "scena11": [
         {
-            "background": ".poze/fundal/in casa.jpg",
+            "background": "history/Volna/poze/fundal/in casa.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1243,7 +1243,7 @@
     ],
     "scena12": [
         {
-            "background": ".poze/fundal/camere.jpg",
+            "background": "history/Volna/poze/fundal/camere.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1276,7 +1276,7 @@
     ],
     "scena13": [
         {
-            "background": ".poze/fundal/camera cris.jpg",
+            "background": "history/Volna/poze/fundal/camera cris.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1508,7 +1508,7 @@
     ],
     "scena14": [
     {
-      "background": ".poze/fundal/coperta.png",
+      "background": "history/Volna/poze/fundal/coperta.png",
       "text": [
         {
           "name": "no",
