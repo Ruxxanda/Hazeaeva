@@ -1,7 +1,7 @@
 {
     "scena1": [
         {
-            "background": "./images/fundal/afara casa.jpg",
+            "background": "/poze/fundal/afara casa.jpg",
             "text": [
                 {
                     "name": "no",
@@ -25,7 +25,7 @@
 
     "scena2": [
         {
-            "background": "./images/fundal/coperta.png",
+            "background": "/poze/fundal/coperta.png",
             "text": [
 
 

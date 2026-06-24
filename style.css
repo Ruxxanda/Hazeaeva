@@ -357,7 +357,7 @@ section.info {
     inset: 0;
     z-index: 1;
     pointer-events: none;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.2) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.771) 0%, rgba(0, 0, 0, 0.782) 100%);
     opacity: 0;
     transition: opacity 0.6s ease;
 }

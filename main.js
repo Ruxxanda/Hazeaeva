@@ -115,7 +115,7 @@ async function initIndex(){
   // Render cards with cover and metadata (load per-story meta)
   for(const story of stories){
     const info = await loadJSON(`history/${encodeURIComponent(story.id)}/date.json`)
-    const cover = info?.cover || 'images/fundal/coperta.png'
+    const cover = buildStoryCoverPath(story.id, info?.cover)
     const title = info?.title || story.title || story.id
     const author = info?.author || ''
 
@@ -143,6 +143,11 @@ async function initIndex(){
     // keep place but no link
     grid.appendChild(placeholder)
   }
+}
+
+function buildStoryCoverPath(storyId, explicitCover){
+  if(explicitCover) return explicitCover
+  return `history/${encodeURIComponent(storyId)}/poze/fundal/coperta.png`
 }
 
 function escapeHtml(text){
@@ -177,7 +182,7 @@ async function initStoryDetails(){
   authorEl.textContent = info.author ? `Автор: ${info.author}` : ''
   descEl.textContent = info.description || 'Описание для этой истории отсутствует.'
   if(coverEl){
-    coverEl.src = info.cover || 'images/fundal/coperta.png'
+    coverEl.src = buildStoryCoverPath(story, info?.cover)
     coverEl.alt = info.title || story
   }
 
@@ -382,7 +387,12 @@ async function initRead(){
 
   function showPhoneEntry(entry){
     const messages = Array.isArray(entry.mesaje) ? entry.mesaje : []
+    const phoneContact = qs('.phone-contact')
     phoneMessages.innerHTML = ''
+
+    if(phoneContact){
+      phoneContact.textContent = entry?.nikname || 'Kontakt'
+    }
 
     messages.forEach(message => {
       const row = document.createElement('div')
@@ -544,7 +554,7 @@ async function initRead(){
 
   function handleSceneTap(event){
     const target = event.target
-    if(target.closest('#phone-panel') || target.closest('#phone-next-button')){
+    if(target.closest('#phone-panel') || target.closest('#phone-next-button') || target.closest('#end-button')){
       return
     }
 
@@ -569,6 +579,7 @@ async function initRead(){
   }
 
   endButton.addEventListener('click', (event) => {
+    event.preventDefault()
     event.stopPropagation()
     location.href = `story.html?story=${encodeURIComponent(story)}`
   })

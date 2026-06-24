@@ -1,7 +1,7 @@
 {
     "scena1": [
         {
-            "background": "./images/fundal/in casa.jpg",
+            "background": "history/Volna/poze/fundal/in casa.jpg",
             "text": [
                 {
                     "name": "no",
@@ -88,9 +88,9 @@
                     "content": "А есть что-нибудь поесть? Я с самого утра ничего не ела..."
                 },
                 {
-                    "name": "Фрама",
+                    "name": "Саша",
                     "position": "right",
-                    "image": "./images/personaje/Frama.png",
+                    "image": "./images/personaje/Paradeevich.png",
                     "content": "Да, сейчас шашлык будем делать. Будешь?"
                 },
                 {
@@ -358,7 +358,7 @@
     ],
     "scena2": [
         {
-            "background": "./images/fundal/bucatarie.jpg",
+            "background": ".poze/fundal/bucatarie.jpg",
             "text": [
                 {
                     "name": "no",
@@ -561,7 +561,7 @@
     ],
     "scena3": [
         {
-            "background": "./images/fundal/masa.jpg",
+            "background": ".poze/fundal/masa.jpg",
             "text": [
                 {
                     "name": "no",
@@ -808,7 +808,7 @@
     ],
     "scena4": [
         {
-            "background": "./images/fundal/bucatarie.jpg",
+            "background": ".poze/fundal/bucatarie.jpg",
             "text": [
                 {
                     "name": "no",
@@ -917,7 +917,7 @@
     ],
     "scena5": [
         {
-            "background": "./images/fundal/canapea.jpg",
+            "background": ".poze/fundal/canapea.jpg",
             "text": [
                 {
                     "name": "no",
@@ -926,7 +926,7 @@
                 {
                     "name": "Илья",
                     "position": "right",
-                    "image": "./images/personaje/Pupunia.png",
+                    "image": "./images/personaje/Ilia.png",
                     "content": "Крис."
                 },
                 {
@@ -936,7 +936,7 @@
                 {
                     "name": "Илья",
                     "position": "right",
-                    "image": "./images/personaje/Pupunia.png",
+                    "image": "./images/personaje/Ilia.png",
                     "content": "Завтра мы едем снимать ролик на ферму. Хочешь поехать с нами?"
                 },
                 {
@@ -948,7 +948,7 @@
                 {
                     "name": "Илья",
                     "position": "right",
-                    "image": "./images/personaje/Pupunia.png",
+                    "image": "./images/personaje/Ilia.png",
                     "content": "Участвовать не придётся. Просто побудешь рядом."
                 },
                 {
@@ -960,7 +960,7 @@
                 {
                     "name": "Илья",
                     "position": "right",
-                    "image": "./images/personaje/Pupunia.png",
+                    "image": "./images/personaje/Ilia.png",
                     "content": "Отлично. Тогда будь готова к половине девятого."
                 },
                 {
@@ -976,7 +976,7 @@
                 {
                     "name": "Илья",
                     "position": "right",
-                    "image": "./images/personaje/Pupunia.png",
+                    "image": "./images/personaje/Ilia.png",
                     "content": "А вы будьте готовы к семи утра. Потому что я знаю вас."
                 },
                 {
@@ -1002,7 +1002,7 @@
     ],
     "scena6": [
         {
-            "background": "./images/fundal/camere.jpg",
+            "background": ".poze/fundal/camere.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1023,7 +1023,7 @@
                 {
                     "name": "Саша",
                     "position": "right",
-                    "image": "./images/personaje/Sasha.png",
+                    "image": "./images/personaje/Paradeevich.png",
                     "content": "До завтра!"
                 },
                 {
@@ -1035,7 +1035,7 @@
     ],
     "scena7": [
         {
-            "background": "./images/fundal/camera cris.jpg",
+            "background": ".poze/fundal/camera cris.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1054,7 +1054,7 @@
     ],
     "scena8": [
         {
-            "background": "./images/fundal/camera cris.jpg",
+            "background": ".poze/fundal/camera cris.jpg",
             "color": "#000000",
             "text": [
                 {
@@ -1078,7 +1078,7 @@
     ],
     "scena9": [
         {
-            "background": "./images/fundal/camere.jpg",
+            "background": ".poze/fundal/camere.jpg",
             "color": "#000000",
             "text": [
                 {
@@ -1126,7 +1126,7 @@
     ],
     "scena10": [
         {
-            "background": "./images/fundal/in casa.jpg",
+            "background": ".poze/fundal/in casa.jpg",
             "color": "#000000",
             "text": [
                 {
@@ -1156,7 +1156,7 @@
     ],
     "scena11": [
         {
-            "background": "./images/fundal/in casa.jpg",
+            "background": ".poze/fundal/in casa.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1183,10 +1183,6 @@
                     "position": "right",
                     "image": "./images/personaje/Vlad.png",
                     "content": "Что случилось?"
-                },
-                {
-                    "name": "no",
-                    "content": "Спросил Влад."
                 },
                 {
                     "name": "Кристина",
@@ -1247,7 +1243,7 @@
     ],
     "scena12": [
         {
-            "background": "./images/fundal/camere.jpg",
+            "background": ".poze/fundal/camere.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1280,7 +1276,7 @@
     ],
     "scena13": [
         {
-            "background": "./images/fundal/camera cris.jpg",
+            "background": ".poze/fundal/camera cris.jpg",
             "text": [
                 {
                     "name": "no",
@@ -1316,6 +1312,7 @@
                 },
                 {
                     "name": "telefon",
+                    "nikname": "Kuertov",
                     "mesaje": [
                         {
                             "name": "Влад",
@@ -1508,5 +1505,16 @@
                 }
             ]
         }
-    ]
+    ],
+    "scena14": [
+    {
+      "background": ".poze/fundal/coperta.png",
+      "text": [
+        {
+          "name": "no",
+          "content": "Это моя первая история, не судите строго. Предложения и идеи пишите в Telegram: @pocornosti."
+        }
+      ]
+    }
+  ]
 }
