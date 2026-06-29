@@ -1,7 +1,7 @@
 {
   "scena1": [
     {
-      "background": "/history/Volna/poze/fundal/casa cris.jpg",
+      "background": "history/Volna/poze/fundal/casa cris.jpg",
       "text": [
         {
           "name": "no",
@@ -145,7 +145,7 @@
   ],
   "scena2": [
     {
-      "background": "/history/Volna/poze/fundal/coperta.png",
+      "background": "history/Volna/poze/fundal/coperta.png",
       "text": [
         {
           "name": "no",
