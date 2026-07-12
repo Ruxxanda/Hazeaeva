@@ -176,7 +176,7 @@
   ],
   "scena2": [
     {
-      "background": "/history/FT1207/poze/fundal/in masina.jpg",
+      "background": "history/FT1207/poze/fundal/in masina.jpg",
       "text": [
         {
           "name": "no",
@@ -191,7 +191,7 @@
   ],
   "scena3": [
     {
-      "background": "/history/FT1207/poze/fundal/drum racing.jpg",
+      "background": "history/FT1207/poze/fundal/drum racing.jpg",
       "text": [
         {
           "name": "no",
@@ -644,7 +644,7 @@
   ],
   "scena4": [
     {
-      "background": "/history/FT1207/poze/fundal/racing.jpg",
+      "background": "history/FT1207/poze/fundal/racing.jpg",
       "text": [
         {
           "name": "no",
@@ -945,7 +945,7 @@
   ],
   "scena5": [
     {
-      "background": "/history/FT1207/poze/fundal/drum racing.jpg",
+      "background": "history/FT1207/poze/fundal/drum racing.jpg",
       "text": [
         {
           "name": "no",
@@ -1086,7 +1086,7 @@
   ],
   "scena6": [
     {
-      "background": "/history/FT1207/poze/fundal/in masina.jpg",
+      "background": "history/FT1207/poze/fundal/in masina.jpg",
       "text": [
         {
           "name": "no",
@@ -1143,7 +1143,7 @@
   ],
   "scena100": [
     {
-      "background": "/history/FT1207/poze/fundal/coperta.png",
+      "background": "history/FT1207/poze/fundal/coperta.png",
       "text": [
         {
           "name": "no",
