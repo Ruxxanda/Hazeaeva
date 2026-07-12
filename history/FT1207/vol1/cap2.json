@@ -1179,7 +1179,7 @@
     ],
     "scena100": [
         {
-            "background": "/history/FT1207/poze/fundal/coperta.png",
+            "background": "history/FT1207/poze/fundal/coperta.png",
             "text": [
                 {
                     "name": "no",
