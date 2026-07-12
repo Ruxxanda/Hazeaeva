@@ -133,16 +133,13 @@ async function initIndex(){
 
     grid.appendChild(a)
   }
-  // If odd number of stories, append an empty placeholder after all real cards so it remains the last item.
-  if(stories.length % 2 === 1){
-    const placeholder = document.createElement('div')
-    placeholder.className = 'story-card story-card-empty'
-    placeholder.setAttribute('data-placeholder', 'true')
-    placeholder.setAttribute('aria-hidden', 'true')
-    placeholder.textContent = 'Здесь может быть ваша история.'
-    // keep place but no link
-    grid.appendChild(placeholder)
-  }
+  // Always keep a placeholder card at the end so the grid layout remains consistent.
+  const placeholder = document.createElement('div')
+  placeholder.className = 'story-card story-card-empty'
+  placeholder.setAttribute('data-placeholder', 'true')
+  placeholder.setAttribute('aria-hidden', 'true')
+  placeholder.textContent = 'Здесь может быть ваша история.'
+  grid.appendChild(placeholder)
 }
 
 function buildStoryCoverPath(storyId, explicitCover){
@@ -164,6 +161,18 @@ async function initStoryDetails(){
     return
   }
 
+  function applyReadStateToChapterItem(chapter, li){
+    const chapterId = chapter?.id
+    if(!chapterId) return
+    const isRead = isChapterRead(story, chapterId)
+    li.classList.toggle('chapter-read', isRead)
+    li.setAttribute('data-read', isRead ? 'true' : 'false')
+    const link = li.querySelector('a')
+    if(link){
+      link.classList.toggle('chapter-link-read', isRead)
+    }
+  }
+
   const info = await loadJSON(`history/${encodeURIComponent(story)}/date.json`)
   const chapters = await loadJSON(`history/${encodeURIComponent(story)}/chapters.json`)
   const titleEl = qs('#story-title')
@@ -172,6 +181,7 @@ async function initStoryDetails(){
   const coverEl = qs('#story-cover')
   const listEl = qs('#chapters-list')
   const readButton = qs('#read-button')
+  const storyLinkEl = qs('#story-link')
 
   if(!info){
     document.body.innerHTML = '<p>Детали истории не найдены.</p>'
@@ -184,6 +194,17 @@ async function initStoryDetails(){
   if(coverEl){
     coverEl.src = buildStoryCoverPath(story, info?.cover)
     coverEl.alt = info.title || story
+  }
+
+  if(storyLinkEl){
+    const storyLink = info?.link?.trim()
+    if(storyLink){
+      storyLinkEl.href = storyLink
+      storyLinkEl.hidden = false
+    } else {
+      storyLinkEl.hidden = true
+      storyLinkEl.removeAttribute('href')
+    }
   }
 
   if(!chapters || !chapters.length){
@@ -199,6 +220,7 @@ async function initStoryDetails(){
     a.href = `read.html?story=${encodeURIComponent(story)}&chapter=${encodeURIComponent(chapter.id)}`
     a.textContent = chapter.title || `Глава ${index + 1}`
     li.appendChild(a)
+    applyReadStateToChapterItem(chapter, li)
     listEl.appendChild(li)
   })
 
@@ -247,6 +269,13 @@ async function initRead(){
   }
 
   const scenes = getSceneEntries(data)
+  const sceneKeys = Object.keys(data || {})
+    .filter(key => /^scena\d+$/i.test(key))
+    .sort((a, b) => {
+      const na = parseInt(a.match(/\d+/), 10) || 0
+      const nb = parseInt(b.match(/\d+/), 10) || 0
+      return na - nb
+    })
   let currentSceneIndex = 0
   let currentSceneTextEntries = []
   let currentEntryIndex = 0
@@ -496,6 +525,13 @@ async function initRead(){
     }, 10)
   }
 
+  function updateEndButtonVisibility(index){
+    if(!endButton) return
+    const sceneKey = sceneKeys[index] || ''
+    const isFinalScene = /^scena100$/i.test(sceneKey) || /^scene100$/i.test(sceneKey)
+    endButton.hidden = !isFinalScene
+  }
+
   function showScene(index){
     const sceneData = scenes[index]
     if(!sceneData) return
@@ -503,6 +539,7 @@ async function initRead(){
     currentSceneIndex = index
     currentSceneTextEntries = normalizeTextEntries(sceneData)
     currentEntryIndex = 0
+    updateEndButtonVisibility(index)
 
     setBackground(sceneData.background || sceneData.backgroundImage || '', () => {
       applySceneMood(sceneData)
@@ -516,12 +553,13 @@ async function initRead(){
     })
   }
 
-  function showEndButton(){
-    endButton.hidden = false
-  }
+  let chapterTransitioned = false
 
-  function hideEndButton(){
-    endButton.hidden = true
+  function navigateBackToStory(){
+    if(chapterTransitioned) return
+    chapterTransitioned = true
+    markCurrentChapterAsRead()
+    location.href = `story.html?story=${encodeURIComponent(story)}`
   }
 
   function goToNext(){
@@ -536,25 +574,25 @@ async function initRead(){
 
     const entries = currentSceneTextEntries
     if(entries.length > 1 && currentEntryIndex < entries.length - 1){
-      hideEndButton()
       showEntry(currentEntryIndex + 1)
       return
     }
 
     if(currentSceneIndex < scenes.length - 1){
-      hideEndButton()
       showScene(currentSceneIndex + 1)
       return
     }
-
-    showEndButton()
   }
 
   let lastTouchTime = 0
 
   function handleSceneTap(event){
     const target = event.target
-    if(target.closest('#phone-panel') || target.closest('#phone-next-button') || target.closest('#end-button')){
+    const targetElement = target && typeof target.closest === 'function'
+      ? target
+      : (target && target.parentElement ? target.parentElement : null)
+
+    if(targetElement && (targetElement.closest('#phone-panel') || targetElement.closest('#phone-next-button') || targetElement.closest('#end-button'))){
       return
     }
 
@@ -578,16 +616,21 @@ async function initRead(){
     goToNext()
   }
 
-  endButton.addEventListener('click', (event) => {
-    event.preventDefault()
-    event.stopPropagation()
-    location.href = `story.html?story=${encodeURIComponent(story)}`
-  })
+  function markCurrentChapterAsRead(){
+    if(!story || !chapter) return
+    markChapterAsRead(story, chapter)
+  }
+
+  if(endButton){
+    endButton.addEventListener('click', (event) => {
+      event.preventDefault()
+      event.stopPropagation()
+      navigateBackToStory()
+    })
+  }
 
   scene.addEventListener('click', handleSceneTap)
   scene.addEventListener('touchend', handleSceneTap)
-
-  hideEndButton()
 
   preloadChapterAssets()
     .then(() => {
