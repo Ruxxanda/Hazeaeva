@@ -1,12 +1,8 @@
 {
     "scena1": [
         {
-            "background": "/poze/fundal/afara casa.jpg",
+            "background": "history/FT1207/poze/fundal/casa ilia.jpg",
             "text": [
-                {
-                    "name": "no",
-                    "content": "К семи вечера я уже была готова и вышла на улицу ждать Костю."
-                },
                 {
                     "name": "no",
                     "content": ""
@@ -24,23 +20,36 @@
                         {
                             "name": "Exile",
                             "position": "left",
-                            "content": "Привет, я планирую через неделю снять прятки и хотел бы, чтобы ты тоже участвовала. Что думаешь?"
+                            "content": ""
                         }
                     ]
                 }
 
 
+
+
+                
             ]
         }
-    ],
+    ]
+    
+    
+    ,
+
+
+
+
+
     "scena2": [
         {
-            "background": "/history/FT1207/poze/fundal/coperta.png",
+            "background": "history/FT1207/poze/fundal/casa ilia.jpg",
             "text": [
 
 
 
-                
+
+
+
                 {
                     "name": "no",
                     "content": "Надеюсь, вам понравилась история. Оцените работу автора Руксанды и подписывайтесь на ТГ @pocornosti."

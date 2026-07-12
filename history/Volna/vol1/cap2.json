@@ -842,13 +842,14 @@
       ]
     }
   ],
-  "scena8": [
+  "scena100": [
     {
       "background": "history/Volna/poze/fundal/coperta.png",
       "text": [
         {
           "name": "no",
-          "content": "Это моя первая история, не судите строго. Предложения и идеи пишите в Telegram: @pocornosti."
+          "content": "Это моя первая история, не судите строго. Предложения и идеи пишите в Telegram: @pocornosti.",
+          "button": "Назад к истории"
         }
       ]
     }
