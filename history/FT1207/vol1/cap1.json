@@ -752,7 +752,7 @@
         },
         {
           "name": "Фрама",
-          "position": "left",
+          "position": "right",
           "image": "./images/personaje/Frama.png",
           "content": "Совсем."
         },
