@@ -599,7 +599,7 @@
     ],
     "scena3": [
         {
-            "background": "history/FT1207/poze/fundal/coperta.png",
+            "background": "history/FT1207/poze/fundal/metro.jpg",
             "text": [
                 {
                     "name": "no",
@@ -690,8 +690,8 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Это он?"
                 },
                 {
@@ -716,7 +716,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Илья?"
                 },
@@ -734,13 +734,13 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Привет, я Каечка. Можно просто Кая или Пума."
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "А я Кира Киса."
                 },
@@ -750,7 +750,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Мы столько про тебя слышали!"
                 },
@@ -766,13 +766,13 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Господи, какой же ты очаровательный."
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Милашка."
                 },
@@ -796,8 +796,8 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Смутился. Уши покраснели."
                 },
                 {
@@ -854,8 +854,8 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "У тебя есть кто-нибудь?"
                 },
                 {
@@ -870,7 +870,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Романтическом. Девушка? Парень?"
                 },
@@ -894,13 +894,13 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Как это?"
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Подозрительно. Такой милый и свободен."
                 },
@@ -912,7 +912,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Ты буквально выглядишь так, будто птицы по утрам помогают тебе одеваться, а на твоё пение сбегается весь лес."
                 },
@@ -926,14 +926,14 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Слушай, мы можем тебе кого-нибудь подыскать. У нас есть хорошие кандидаты."
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Достойные. Чтобы ценили, не обижали и понимали, что перед ними редкий экземпляр."
                 },
                 {
@@ -966,7 +966,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "У тебя такие мягкие на вид волосы."
                 },
@@ -978,8 +978,8 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Очень."
                 },
                 {
@@ -988,8 +988,8 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Если бы ты был собачкой, то кокер-спаниелем."
                 },
                 {
@@ -1012,7 +1012,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Можно потрогать?"
                 },
@@ -1024,7 +1024,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Волосы. Чуть-чуть."
                 },
@@ -1060,13 +1060,13 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Кира, они правда мягкие."
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Господи, каким уходом ты пользуешься?"
                 },
@@ -1076,7 +1076,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Можно мы тебя заплетём?"
                 },
@@ -1088,8 +1088,8 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Ну пожалуйста. Ты нам доверяешь?"
                 },
                 {
@@ -1100,8 +1100,8 @@
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Уже достаточно."
                 },
                 {
@@ -1136,7 +1136,7 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Голову чуть ниже."
                 },
@@ -1146,19 +1146,19 @@
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "Теперь не двигайся."
                 },
                 {
                     "name": "Кая",
-                    "position": "left",
-                    "image": "./images/personaje/Kaya.png",
+                    "position": "right",
+                    "image": "./images/personaje/Kaia.png",
                     "content": "Какой послушный."
                 },
                 {
                     "name": "Кира",
-                    "position": "left",
+                    "position": "right",
                     "image": "./images/personaje/Kira.png",
                     "content": "И правда милашка."
                 },
