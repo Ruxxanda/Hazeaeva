@@ -541,13 +541,15 @@ section.info {
 .phone-messages {
     height: calc(100% - 116px);
     padding: 16px 12px;
+    /* ensure last message is not hidden behind the footer */
+    padding-bottom: calc(60px + env(safe-area-inset-bottom, 0px));
     overflow-y: auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
     background:
         linear-gradient(rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.18)),
-        linear-gradient(180deg, #eceff6 0%, #f7f8fb 100%)
+        linear-gradient(180deg, #eceff6 0%, #f7f8fb 100%);
 }
 
 .phone-message-row {
