@@ -42,17 +42,16 @@
 
     "scena2": [
         {
-            "background": "history/FT1207/poze/fundal/casa ilia.jpg",
+            "background": "history/FT1207/poze/fundal/coperta.png",
             "text": [
 
 
 
-
-
-
+                
                 {
                     "name": "no",
-                    "content": "Надеюсь, вам понравилась история. Оцените работу автора Руксанды и подписывайтесь на ТГ @pocornosti."
+                    "content": "Автор истории Aristarchoss, подписывайтесь на её канал: t.me/aristarchosschanel.",
+                    "button": "Назад к истории"
                 }
             ]
         }

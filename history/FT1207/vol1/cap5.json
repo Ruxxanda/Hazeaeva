@@ -1,0 +1,1633 @@
+{
+    "scena1": [
+        {
+            "background": "history/FT1207/poze/fundal/casa ilia.jpg",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Последняя коробка оказалась самой тяжёлой. Парадеев уже заносил её, молча, с таким видом, будто вместо позвоночника у него была арматура."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Всё. Переезд официально завершён."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Неправда. Переезд завершён, когда кто-нибудь садится на пол и говорит: \"Зачем у меня столько вещей?\""
+                },
+                {
+                    "name": "no",
+                    "content": "Лёша оглядел комнату, которую Яцкевич выделил ему. Она была просторная и светлая, с пустой стеной, на которую можно было повесить что угодно, и письменным столом у окна."
+                },
+                {
+                    "name": "no",
+                    "content": "Маленькая фигурка динозавра ютилась на окне, которую хозяин квартиры почему-то принёс для уюта."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Если не нравится, можно переставить стол. Или вообще поменяться комнатами. Моя больше, но там..."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Илюх."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Что?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Мне нравится."
+                },
+                {
+                    "name": "no",
+                    "content": "Казалось, логично было бы разобрать вещи, помыть руки, поесть, упасть лицом в подушку, но в квартире стояла странная пауза. Та самая, когда событие уже произошло, а осознать это ещё страшно."
+                },
+                {
+                    "name": "no",
+                    "content": "Деревяшкин теперь жил здесь, не переночует пару дней, не пока всё уляжется. Жил."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья всё утро повторял это про себя, пока носил пакеты, открывал дверь, искал свободные розетки и говорил слишком бодрым голосом:"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Вот сюда можно книги."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Если хочешь, стол новый купим."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "В ванной верхняя полка твоя."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ключи уже сделал."
+                },
+                {
+                    "name": "no",
+                    "content": "Алексей на всё кивал, иногда отвечая, иногда смотря в одну точку. Ссора с родителями была не просто ссорой, что стало ясно даже без подробностей."
+                },
+                {
+                    "name": "no",
+                    "content": "Рассказал Деревяшкин мало, почти ничего, а расспрашивать его друзья не стали."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Ты взял вок для Ильи?"
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Да."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Нужно проверить, ел ли он вообще сегодня."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Я не домашнее животное."
+                },
+                {
+                    "name": "no",
+                    "content": "Наивно надув губы, Яцкевич обиженно протянул слова. Лёша даже не повернулся."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Ты хуже. Домашнее животное хотя бы громко требует еды."
+                },
+                {
+                    "name": "no",
+                    "content": "Саня тихо рассмеялся."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья хотел возразить, но в этот момент раздался звонок в дверь."
+                },
+                {
+                    "name": "no",
+                    "content": "Звонок был слишком уверенный для курьера и слишком поздний для соседки снизу, которая иногда приходила ругаться на стиральную машинку, даже когда та не работала."
+                },
+                {
+                    "name": "no",
+                    "content": "Поставив кружку на ближайшую свободную поверхность, ею оказалась коробка с надписью \"не потерять\", Яцкевич пошёл открывать."
+                },
+                {
+                    "name": "no",
+                    "content": "За дверью стоял Ермолаев с совершенно спокойным лицом. В тёмной куртке, с ключами в руке, немного растрёпанный ветром и при этом раздражающе уверенный."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Нет."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "И тебе привет."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Лёша!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Я не виноват."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Так вот где ты прячешься."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Это незаконно, быть везде."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Вообще-то меня попросил Парадеевич. Я привёз кровать."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Кровать?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Она большая, тяжёлая и очень хочет внутрь."
+                },
+                {
+                    "name": "Саня",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Он правда не виноват. Я попросил помочь с доставкой."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "А предупредить?"
+                },
+                {
+                    "name": "Саня",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Ты бы начал нервничать."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "А сейчас я, конечно, образец внутренней гармонии."
+                },
+                {
+                    "name": "no",
+                    "content": "Фраметаймер смотрел на него с плохо скрываемым интересом."
+                },
+                {
+                    "name": "no",
+                    "content": "И только сейчас Илья вспомнил, что на нём домашние мягкие штаны Hello Kitty, мятая футболка с динозавром и цветные носки. Волосы после дневной суеты торчали в разные стороны, на лице всё ещё держалась сонная мягкость."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Не смотри."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Куда?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Вообще."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Сложно, ты стоишь перед дверью."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Коробка внизу."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Лифт работает, но нужны руки."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "А я?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "А ты поешь."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Я могу помочь."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Не лезь."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Я здесь живу!"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Именно поэтому нам надо, чтобы ты выжил."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Штаны зачётные."
+                },
+                {
+                    "name": "no",
+                    "content": "Яцкевич захлопнул дверь слишком быстро."
+                },
+                {
+                    "name": "no",
+                    "content": "Минут через пятнадцать кровать появилась в квартире. Вернее, сначала появился звук: тяжёлое шарканье коробки, осторожное \"левее\", сдержанное \"стой-стой-стой\", потом глухой удар об косяк, потом Парадеев сказал слово, которое Илья сделал вид, что не услышал."
+                },
+                {
+                    "name": "no",
+                    "content": "Когда коробку наконец поставили в комнате, Алексей посмотрел на неё так, будто перед ним был не предмет мебели, а доказательство его собственного упрямства."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Я могу вернуть деньги."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Нет."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Но-"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Нет."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ты мог не покупать, я бы купил."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Знаю."
+                },
+                {
+                    "name": "no",
+                    "content": "Яцкевич замолчал. Именно это и было проблемой, он бы с удовольствием купил. Не потому что Лёша бедный или беспомощный, а потому что хотел. Хотел дать ему нормальное место, нормальную кровать, дать понять, что ему тут рады. Но Лёша тоже хотел оставить за собой хоть что-то, хоть одну вещь, которую он принёс в новую жизнь сам."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ладно. Но постельное бельё моё."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "У меня есть."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Тогда плед."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Илья."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Просто плед."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Без динозавров."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "А почему не с динозаврами?"
+                },
+                {
+                    "name": "no",
+                    "content": "Илья посмотрел на него как на человека, который неожиданно подал руку помощи."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Вот."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Не начинай."
+                },
+                {
+                    "name": "no",
+                    "content": "Кровать собирали долго. Инструкция была напечатана так, будто её автор лично ненавидел человечество и особенно людей, пытающихся понять, где передняя планка, а где задняя."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Это не та деталь."
+                },
+                {
+                    "name": "no",
+                    "content": "Кореш держал бумагу с указаниями в руке."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Та."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Нет."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Она подходит."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Много что в жизни подходит, но это не значит, что так правильно."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья сидел на полу среди винтов и держал пакетик с крепежом, потому что это единственное, что ему доверили."
+                },
+                {
+                    "name": "no",
+                    "content": "Это было унизительно, но справедливо. Пять минут назад он действительно уронил шайбу, и она закатилась под коробку с книгами."
+                },
+                {
+                    "name": "no",
+                    "content": "Ермолаев, к которому доверия было побольше, вкручивал болты быстро и спокойно."
+                },
+                {
+                    "name": "no",
+                    "content": "Через час кровать стояла."
+                },
+                {
+                    "name": "no",
+                    "content": "Когда Деревяшкин сел на край, комната как будто сразу стала другой."
+                },
+                {
+                    "name": "no",
+                    "content": "Парадеев сел рядом с ним и осторожно толкнул плечом."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Нормально?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Нормально."
+                },
+                {
+                    "name": "no",
+                    "content": "Саня сжал его ладонь в своей, Яцкевич отвёл глаза для приличия и сделал вид, что не заметил."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Так. Теперь новоселье."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Но я ничего не приготовил."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Мы приготовили."
+                },
+                {
+                    "name": "no",
+                    "content": "Белобрысый улыбнулся."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Когда?"
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Пока ты думал, что контролируешь ситуацию."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Я никогда так не думал."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Правильно. Потому что не контролируешь."
+                },
+                {
+                    "name": "no",
+                    "content": "Оказалось, что пакеты, которые Яцкевич считал \"ещё вещами Лёши\", были наполнены снеками, фруктами, а ещё там спрятались напитки и различные нарезки."
+                },
+                {
+                    "name": "no",
+                    "content": "Распаковка была доверена байкерам, пока Илья, прихватив лучшего друга, занимался посудой."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Сок?"
+                },
+                {
+                    "name": "no",
+                    "content": "Саша удивлённо достал тетрапак из пакета."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Алкоголь не брали. Илюшка же не пьёт."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Совсем?"
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Да. Он даже и не пробовал ни разу."
+                },
+                {
+                    "name": "no",
+                    "content": "Это вызывало уважение, на самом деле. Но, даже и не зная этот факт, глядя на Яцкевича можно было догадаться самому."
+                },
+                {
+                    "name": "no",
+                    "content": "Не выглядел он как человек, фанатеющий от спиртных напитков."
+                },
+                {
+                    "name": "no",
+                    "content": "Новоселье шло тихим ходом, а потом Деревяшкин достал из рюкзака \"Монополию\"."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья уставился на коробку."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Эта игра разрушает дружбу, семьи и веру в справедливость."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Отлично подходит для новоселья."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Мы только что пережили переезд."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Значит, морально подготовлены."
+                },
+                {
+                    "name": "no",
+                    "content": "Фраметаймер взял игру, рассматривая обложку."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Я за."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Конечно, ты за. Скупишь все вокзалы?"
+                },
+                {
+                    "name": "no",
+                    "content": "Яцкевич сузил глаза."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Я больше предпочитаю коммунальные предприятия."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ещё хуже."
+                },
+                {
+                    "name": "no",
+                    "content": "Парадеевич сел за стол, хлопая в ладони, для привлечения внимания."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Прежде, чем вы снова начнёте флиртовать..."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Мы не флиртуем."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Мы не флиртуем."
+                },
+                {
+                    "name": "no",
+                    "content": "Поджав губы, Лёша постарался скрыть вырывающуюся наружу улыбку. Его слишком забавляли эти двое."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Правила простые: без кредитов \"по дружбе\", без бесконечных споров, банк не ворует."
+                },
+                {
+                    "name": "no",
+                    "content": "Поле разложили прямо на полу в гостиной, потому что стол был занят едой."
+                },
+                {
+                    "name": "no",
+                    "content": "Яцкевич притащил подушки."
+                },
+                {
+                    "name": "no",
+                    "content": "Деревяшкин сел, прислонившись к дивану, Парадеевич устроился рядом с ним."
+                },
+                {
+                    "name": "no",
+                    "content": "Саша сел напротив Ильи, и это почему-то сразу сделало игру личной."
+                },
+                {
+                    "name": "no",
+                    "content": "Первые десять минут все играли прилично, потом Лёша купил первую улицу, потом вторую."
+                },
+                {
+                    "name": "no",
+                    "content": "Саня тем временем методично собирал один цветовой сектор и выглядел слишком невинно для человека, который явно строил финансовую империю."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Я одновременно горжусь тобой и боюсь тебя."
+                },
+                {
+                    "name": "no",
+                    "content": "Игра постепенно становилась всё громче."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья смеялся чаще, чем собирался."
+                },
+                {
+                    "name": "no",
+                    "content": "Сначала осторожно, будто смех мог потревожить что-то хрупкое в комнате. Потом свободнее."
+                },
+                {
+                    "name": "no",
+                    "content": "Кореш тоже постепенно оттаивал."
+                },
+                {
+                    "name": "no",
+                    "content": "Он всё ещё иногда выпадал из разговора, взглядом цепляясь за коробки в комнате, но каждый раз Парадеевич касался его руки, и Лёша возвращался."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Нельзя строить дом, если у тебя не весь комплект!"
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "У меня весь комплект."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Когда ты успел?!"
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Пока вы спорили про напёрсток."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Это нечестно."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Это буквально правила."
+                },
+                {
+                    "name": "no",
+                    "content": "Алексей, выкинув из головы мешающие мысли, начал смеяться всё чаще. Не постоянно, не беззаботно, но уже не так, будто каждый смешок надо вырывать изнутри усилием."
+                },
+                {
+                    "name": "no",
+                    "content": "Когда он попал на клетку \"Шанс\", все замерли."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Если там \"идите в тюрьму\", я поверю в справедливость вселенной."
+                },
+                {
+                    "name": "no",
+                    "content": "Лёша вытащил карточку и прочитал."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Получите наследство."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Возмутительно."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья страдальчески закинул голову назад."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Реалистично. Богатые богатеют."
+                },
+                {
+                    "name": "no",
+                    "content": "Фраметаймер украдкой наслаждался эмоциональностью парня."
+                },
+                {
+                    "name": "no",
+                    "content": "Ермолаев подвинул Илье стопку купюр."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Кстати, вот твои пятьдесят. Ты опять отдал лишнее."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Зачем ты мне помогаешь? Мы конкуренты."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Перемирие."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Если я в домашнем, это не значит, что я политически уязвим."
+                },
+                {
+                    "name": "no",
+                    "content": "Через полчаса стало ясно, что Парадеевич опасен, Лёша азартен, Саша слишком хорошо считает, а Илья играет эмоционально и покупает улицы потому, что название приятное."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Ты не можешь строить стратегию на этом."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Могу."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Это финансовое самоубийство."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "И ладно."
+                },
+                {
+                    "name": "no",
+                    "content": "Экономист пожал плечами."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Ты купил улицу, на которую никто не попадает."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Она одинокая, ей нужна поддержка."
+                },
+                {
+                    "name": "no",
+                    "content": "Уронив лицо в ладони, Деревяшкин звонко рассмеялся."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Я живу с человеком, который усыновляет недвижимость."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Да. И ты теперь обязан это терпеть."
+                },
+                {
+                    "name": "no",
+                    "content": "Парадеев выиграл, разумеется. Он сделал это тихо и аккуратно, работая по чёткому плану. Ну или во всём была виновата его бесконечная удача."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Кажется, вы все банкроты."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Кажется?"
+                },
+                {
+                    "name": "no",
+                    "content": "Яцкевич посмотрел на пустое место рядом с собой."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ну, хотя бы напёрсток остался."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Напёрсток тоже заложен."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ты вообще молчи, коммунальный магнат."
+                },
+                {
+                    "name": "no",
+                    "content": "Лёша лежал боком на ковре, уткнувшись щекой в подушку."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Я требую реванш."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Сейчас?"
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Нет, когда снова поверю людям."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "То есть никогда."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Примерно."
+                },
+                {
+                    "name": "no",
+                    "content": "Саша начал собирать купюры, разбросанные по полу."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "А мне понравилось."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Потому что ты проиграл не так позорно, как я."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Ты проиграл красиво."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Это оскорбление или комплимент?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "А что сильнее тебя выбесит?"
+                },
+                {
+                    "name": "no",
+                    "content": "Младший бросил в него подушку, которую Ермолаев без проблем поймал прямо перед лицом."
+                },
+                {
+                    "name": "no",
+                    "content": "Данная сцена вынудила Деревяшкина снова рассмеяться, зарываясь рукой в волосы."
+                },
+                {
+                    "name": "no",
+                    "content": "Квартира, которая обычно вечером становилась слишком тихой, теперь была наполнена звуками."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Сделаю нам чай."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Я помогу."
+                },
+                {
+                    "name": "no",
+                    "content": "Ермолаев почти сразу вскочил со своего места."
+                },
+                {
+                    "name": "no",
+                    "content": "Яцкевич хотел сказать, что справится с чайником без чьей-то помощи, но почему-то промолчал."
+                },
+                {
+                    "name": "no",
+                    "content": "На кухне было тише. За стеной Лёша и Парадеев о чём-то спорили, их голоса доносились неразборчиво, смазываясь в уютный фон."
+                },
+                {
+                    "name": "no",
+                    "content": "Открыв шкафчик, Илья достал кружки. Одну с трещиной у ручки, свою любимую, которую Кореш каждый раз грозился выбросить. Вторую с надписью, третью и четвёртую с какими-то дурацкими рисунками, происхождение которых он уже не помнил."
+                },
+                {
+                    "name": "no",
+                    "content": "Саша тем временем прислонился к подоконнику. Он занял там слишком много места, не физически даже, а как-то вообще. Словно кухня, до этого тесная и знакомая, вдруг стала ещё теснее от его присутствия."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Ну что. Перемирие?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Мы воевали?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Наверное? Ты каждый раз смотришь на меня так, будто я виноват в исчезновении динозавров."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "В исчезновении динозавров ты точно не виноват."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Уже легче."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ладно. Перемирие."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Тогда устный договор."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Устный договор о чём?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Что мы попробуем быть друзьями."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ты уверен, что умеешь?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Быть другом?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Не бесить людей."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Нет. Но я обучаемый."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья не выдержал и улыбнулся."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Ты чувствуешь скорость не где-то там, за стеклом, она вокруг тебя. Ветер, шум, асфальт под колёсами. Ты не можешь спрятаться в салоне и сделать вид, что мир тебя не касается."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Ещё это свобода?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "И да, и нет. Свобода слишком громкое слово. Скорее… тишина в голове, ветер всё лишнее выдувает."
+                },
+                {
+                    "name": "no",
+                    "content": "Экономист представил это: ночную дорогу, гул мотора, городские огни, размазанные по бокам, ветер, от которого щиплет глаза. Ощущение, что все мысли, которые обычно толкаются в голове, вдруг замолкают. И на секунду захотелось понять, какого это."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Звучит опасно."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Иногда. Но не настолько, как люди думают."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Люди думают, что мотоциклисты бессмертные идиоты."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Некоторые мотоциклисты тоже так думают. Недолго."
+                },
+                {
+                    "name": "no",
+                    "content": "Илья фыркнул."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Теперь моя очередь."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Что?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Почему динозавры?"
+                },
+                {
+                    "name": "no",
+                    "content": "Илья автоматически опустил взгляд на принт."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Они классные."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Это первый слой?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Да."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Я готов испугаться."
+                },
+                {
+                    "name": "no",
+                    "content": "Яцкевич хмыкнул, но не ответил сразу. Он взял ещё одну кружку, налил кипяток, посмотрел, как чай темнеет, расползаясь по воде янтарными облаками."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Они жили так давно, что это почти сказка. Но они были настоящими. От них остались кости, следы, отпечатки кожи, яйца, целые скелеты иногда. То есть они исчезли, но не совсем."
+                },
+                {
+                    "name": "no",
+                    "content": "Байкер слушал, не перебивал и Илья почему-то продолжил."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Люди всё ещё пытаются понять, какими они были. Как двигались, как охотились, как выглядели на самом деле. С перьями, без перьев, какого цвета… Мы никогда не узнаем всего, но можем собрать кусочки и представить."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Тебе нравится собирать картину по кускам?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Наверное. Когда у тебя есть только фрагменты, но ты всё равно можешь представить целый мир."
+                },
+                {
+                    "name": "no",
+                    "content": "На кухне стало теплее, или это просто пар от кружек поднимался между ними, смягчая свет и контуры."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "А аниме?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Потому, что там можно позволить себе быть слишком. Слишком ярким, слишком грустным, слишком смешным. В обычной жизни это не одобряют?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "А в аниме?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "А в аниме герой может кричать о дружбе посреди боя, и это будет нормально."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Ты хочешь кричать о дружбе посреди боя?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Я хочу, чтобы иногда эмоции не надо было прятать за сарказмом."
+                },
+                {
+                    "name": "no",
+                    "content": "Он сказал это и сам удивился. Слова выскочили слишком честно, без защитной упаковки, без шутки сверху, без возможности сразу отступить."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Понимаю."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Правда?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Да."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Илья."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "М?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Штаны правда зачётные."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Я знаю."
+                },
+                {
+                    "name": "no",
+                    "content": "Когда они вернулись в комнату, Лёша всё ещё лежал головой на подушке, пока рядом Парадеев раскладывал карточки по стопкам."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Вы там чай выращивали?"
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Заключали мирный договор."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Серьёзно?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Временно."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Устный договор, между прочим."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Устные договоры в этой квартире имеют ограниченный срок действия."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Какой?"
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "До первой глупой фразы."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "То есть минут пять?"
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Оптимистично."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Я постараюсь продержаться семь."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Амбициозно."
+                },
+                {
+                    "name": "no",
+                    "content": "Алексей улыбнулся. Увидев это, хозяин квартиры вдруг подумал, что, может быть, этот вечер всё-таки получился правильным."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Я."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Почему ты?"
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Потому что я умею считать, в отличие от некоторых."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Это дискриминация гуманитариев."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Это забота о бюджете."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Он просто хочет контролировать денежные потоки."
+                },
+                {
+                    "name": "Парадеевич",
+                    "position": "right",
+                    "image": "./images/personaje/Paradeevici.png",
+                    "content": "Я всё слышу."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Вот видишь. Ещё и спецслужбы."
+                },
+                {
+                    "name": "no",
+                    "content": "Последний круг они доиграли почти мирно. Парадеев снова победил, Илья окончательно разорился, Ермолаев сохранил неприлично достойное лицо для человека, который тоже проиграл, а Алексей уснул сидя, держа в руке карточку \"Шанс\"."
+                },
+                {
+                    "name": "no",
+                    "content": "Зашёл на кухню он как раз в тот момент, когда Ермолаев ставил последнюю кружку на сушилку."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Спасибо."
+                },
+                {
+                    "name": "no",
+                    "content": "Тихо пробормотал Яцкевич, боясь помешать Корешу уснуть."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Не за что."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "И за вечер в целом."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Это уже серьёзный вклад в дружбу?"
+                },
+                {
+                    "name": "no",
+                    "content": "Наклонившись к младшему с ноткой игривости, поддразнил Саша."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Не обольщайся, пока просто снижение уровня подозрительности."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "До какого?"
+                },
+                {
+                    "name": "no",
+                    "content": "Задумчиво поджав губы, Илья подумал."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "До умеренного."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Прогресс."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Временно."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "С испытательным сроком."
+                },
+                {
+                    "name": "no",
+                    "content": "Напомнил Ермолаев."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Именно."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Вы там опять флиртуете?"
+                },
+                {
+                    "name": "no",
+                    "content": "Из комнаты донеслось сонное."
+                },
+                {
+                    "name": "no",
+                    "content": "Парадеев, убирающий бардак в новой комнате Лёши, тихо рассмеялся. Яцкевич закрыл лицо ладонью, дав Саше невозмутимо ответить."
+                },
+                {
+                    "name": "Фрама",
+                    "position": "right",
+                    "image": "./images/personaje/Frama.png",
+                    "content": "Нет, мы обсуждаем условия капитуляции."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Илюша не капитулирует."
+                },
+                {
+                    "name": "no",
+                    "content": "Пробормотал Деревяшкин, ведя борьбу со слипающимися глазами."
+                },
+                {
+                    "name": "Лёша",
+                    "position": "right",
+                    "image": "./images/personaje/Kores.png",
+                    "content": "Он драматично отступает."
+                },
+                {
+                    "name": "Илья",
+                    "position": "left",
+                    "image": "./images/personaje/Ilia.png",
+                    "content": "Спи уже!"
+                },
+                {
+                    "name": "no",
+                    "content": "Крикнул Илья достаточно, чтобы его услышали только гости в квартире, а не обожаемая соседка снизу."
+                }
+            ]
+        }
+    ],
+    "scena100": [
+        {
+            "background": "history/FT1207/poze/fundal/coperta.png",
+            "text": [
+                {
+                    "name": "no",
+                    "content": "Автор истории Aristarchoss, подписывайтесь на её канал: t.me/aristarchosschanel.",
+                    "button": "Назад к истории"
+                }
+            ]
+        }
+    ]
+}
