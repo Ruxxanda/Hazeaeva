@@ -17,8 +17,8 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Я тебе говорю, он за Максом ходит как хвост. Вова, говорит, что там уже чуть ли серенады не поют."
                 },
                 {
@@ -29,8 +29,8 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Ну да. Лет на пять, вроде."
                 },
                 {
@@ -45,8 +45,8 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Максим от него шарахается."
                 },
                 {
@@ -57,8 +57,8 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Ага. А ещё он, по-моему, запомнил, какие мармеладки Стинт обычно покупает. Теперь таскает ему, чуть ли не пакетами."
                 },
                 {
@@ -101,8 +101,8 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Живой там?"
                 },
                 {
@@ -121,8 +121,8 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Фрам, у тебя звонит."
                 },
                 {
@@ -137,8 +137,8 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Мама."
                 },
                 {
@@ -249,14 +249,14 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Да ничего."
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "Про Стинта болтали."
                 },
                 {
@@ -283,8 +283,8 @@
                 },
                 {
                     "name": "Ваня",
-                    "position": "left",
-                    "image": "./images/personaje/Vania.png",
+                    "position": "right",
+                    "image": "./images/personaje/Dipins.png",
                     "content": "А-а. Болт, конечно."
                 },
                 {
